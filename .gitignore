@@ -1,0 +1,4 @@
+#ignore DRAWIO files
+*.drawio
+# ignore Microsoft Word Document file
+*.docx
