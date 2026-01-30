@@ -1,72 +1,69 @@
 
 <div align="center">
-  <img width="320px" src="docs/terravolt_logo.png" alt=  "Company Logo"/>
+  <img width="120px" src="docs/dailygrind_logo.png" alt=  "Company Logo"/>
 </div>
-<h1 align = "center"><b>DailyGrind Perfromance Report</b></h1>
-
+<h1 align = "center"><b>DailyGrind Performance Report</b></h1>
 
 <h1 id="top"> Table of Contents</h1>
 
 - [Project Background](#project-background)
 - [Executive Summary](#executive-summary)
 - [Insights Deep-Dive](#insights-deep-dive)
-    - [Sales Trends and Growth Rates](#sales-trends-and-growth-rates)
-    - [Key Product Performance](#key-product-performance)
-    - [Customer Growth and Repeat Purchase Trends](#customer-growth-and-repeat-purchase-trends)
-    - [Loyalty Program Performance](#loyalty-program-performance)
-    - [Sales by Platforms & Channels](#sales-by-platforms--channels)
-    - [Refund Rate Trends](#refund-rate-trends)
+  - [Sales Trend](#sales-trend)
+  - [Time Granularity Performance](#time-granularity-performance)
+  - [Key Product Performance](#key-product-performance)
 - [Recommendations](#recommendations)
-- [Assumptions and Caveats](#assumptions-and-caveats)
-- [Repository Structure](#repository-structure)
+- [Clarifying Questions, Assumptions, and Caveats](#clarifying-questions-assumptions-and-caveats)
+  - [Questions for Stakeholders Prior to Project Advancement](#questions-for-stakeholders-prior-to-project-advancement)
+  - [Assumptions and Caveats](#assumptions-and-caveats)
 - [Tools and Technology Used](#tools-and-technology-used)
-- [Future Enhancements](#future-enhancements)
+- [Next Steps](#next-steps)
 - [Author](#author)  
 
-
+## Project Background
 
 <table align="center">
   <tr>
     <td width="1440">
-      <h2 align="center">Client Background</h2>
       <body>
-        <strong>TechSphere</strong> is a US-based e-commerce company that sells popular consumer electronics and accessories to a global clientele. Established in 2018, the company has grown and expanded in the last few years, it has encountered increasing competition from peer companies as well as unique challenges and opportunities brought on by the COVID-19 pandemic. <br>
-        <br>
-        <strong>TechSphere's</strong> book of business is approaching <strong>88,000</strong> customers and possesses over <strong>108,000</strong> transactions, generating sales revenue exceeding <strong>$28 million</strong>. The available eCommerce data spans various dimensions and metrics, including sales, products, sales by regions, and the company's loyalty program. <br>
-        <br>Reporting to the Head of Operations, an in-depth analysis was conducted to evaluate <strong>TechSphere’s</strong> performance over the past several years (2019–2022). This comprehensive review provides valuable insights that internal cross-functional teams will utilize to streamline processes and enhance <strong>TechSphere’s</strong> commercial performance. The key insights and recommendations focus on the following areas:
+        DailyGrind is a boutique coffee shop based in <strong>Cape Town, South Africa</strong>, recognised for its artisanal coffee offerings and personalised in-store experience. Serving a broad mix of professionals, students, and everyday coffee consumers, the business focuses on consistency, quality, and convenience through high-frequency, low-basket transactions.
+        Founded in <strong>2024</strong>, DailyGrind has steadily expanded its operations while facing increasing competition from comparable cafés and changing consumer demand patterns. As transaction volume has grown, the business has placed greater emphasis on using point-of-sale (POS) data to support operational efficiency, product optimisation, and evidence-based decision-making.      
+        The available dataset covers <strong>March 2024 to March 2025</strong> and consists of <strong>3,636 completed transactions</strong>, generating over <strong>R115,000 in sales revenue</strong>. The data captures transaction-level information across sales values, product types, and multiple time granularities (daily, hourly, and monthly). There is no customer-level identification, and each transaction represents <strong>a single completed customer order</strong>.
+        Reporting to the <strong>Head of Operations</strong>, this analysis evaluates <strong>sales trends, temporal performance, and product behavior</strong> to uncover actionable insights related to peak trading periods, product mix dynamics, and operational alignment. The findings are intended to support staffing optimisation, menu planning, and revenue stability rather than customer-level behavioural analysis. The key insights and recommendations focus on the following areas:
+      </body>
       </body>
       <h3>Northstar Metrics</h3>
-      <h4>
-        <ul><li>Sales trends - Focusing on key metrics of sales revenue, number of orders placed, and average order value (AOV).</li>
-          <li>Product performance - Analyzing different product lines, market impact, and refund rates to inform strategic product decisions.</li>
+        <ul><li><Strong> Sales performance</strong> - Sales revenue, volume of transaction placed, and average order value (AOV).</li>
+        <li><strong> Time-based performance</strong> - Daily, weekly, and monthly trading patterns</li>
+        <li><strong> Product performance</strong> - Revenue contribution and product mix dynamics across the menu</li>
         </ul>
-      </h4>
     </td>
   </tr>
 </table>
+
+## Executive Summary 
+
 <table align="center">
   <tr>
     <div width="920">
-      <h1 align="center">Executive Summary</h1>
-      <h3 align="center">Sales Revenue Analysis (2024–2025)</h3>
+      <h3 align="center">Sales Revenue Analysis (2024 - 2025)</h3>
       <div align="center">
-        <img width="1000" alt="Sales revenue graph from 2024 to 2025" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1739861326/TechSphere_Sales_Rev_CamilingJS" />
+        <img width="1000px" src="docs/Executive Summary.png" alt=  "Dashboard(Executive Summary)"/>
       </div>
       <td width="460" valign="top">
         <ol>
           <li>
             <strong>Revenue Growth and Peak Performance:</strong>
             <ul>
-              <li>2020 was the strongest year, with sales consistently growing each quarter as a result of the COVID-19 pandemic.</li>
-              <li>Q4 2020 saw the highest revenue ($1.25M in December 2020), making it the best-performing period.</li>
-              <li>January 2021 ($1.03M) also maintained strong sales, though a downward trend started afterward.</li>
+              <li>DailyGrind experienced sustained revenue growth from July to October 2024, with October 2024 emerging as the strongest trading month, materially exceeding the R9K average monthly revenue benchmark.</li>
+              <li>The period recorded multiple positive MoM gains, including a +R3.9K increase, indicating strong customer demand, effective product mix, and consistent transaction volume during peak café trading months.</li>
             </ul>
           </li>
           <li>
-            <strong>Declining Trend in 2022</strong>
+            <strong>Short-Term Slowdown & Demand Softening</strong>
             <ul>
-              <li>A sales anomaly and significant decline occurred in 2022, particularly in Q4, with October ($178K), November ($208K), and December ($262K) marking the lowest revenue months.</li>
-              <li>The Q3 and Q4 revenue decline suggests a major downturn, likely caused by external market conditions, reduced consumer demand, or internal operational shifts.</li>
+              <li>January 2025 recorded the weakest performance, with a MoM decline of -R1.8K, reflecting a post-peak seasonal common in coffee retail following the festive period.</li>
+              <li>This contraction suggests lower foot traffic and reduced transaction frequency, rather than structural revenue decline.</li>
             </ul>
           </li>
         </ol>
@@ -74,18 +71,20 @@
       <td width="460" valign="top">
         <ol start="3">
           <li>
-            <strong>Quarterly Insights & Seasonal Trends</strong>
+            <strong> Strong Recovery & Sales Momentum </strong>
             <ul>
-              <li>Q3 and Q4 of each year typically show strong performance, likely due to seasonal shopping trends and marketing efforts.</li>
-              <li>Q1 2022 started well ($704K in January), but revenue quickly dropped, signaling an overall weak performance compared to previous years.</li>
+              <li>February 2025 delivered the strongest recovery, posting the highest MoM growth (+25%) and a +R6.8K revenue increase, signaling a rapid return of customer demand.</li>
+              <li>March 2025 sustained revenue above the historical average, confirming stabilization and improved sales momentum rather than a temporary spike.</li>
             </ul>
           </li>
           <li>
             <strong>Key Takeaways & Recommendations</strong>
             <ul>
-              <li>Investigate the causes of the 2022 decline (e.g., market changes, competition, internal factors).</li>
-              <li>Leverage high-performing periods (e.g., Q3 and Q4 of strong years) to refine marketing and sales strategies.</li>
-              <li>Reassess business strategy for 2023, focusing on pricing, promotions, and customer engagement to regain momentum.</li>
+              <li>Investigate the causes of the     steep drop and continuing decline (e.g., market changes, competition, internal factors) from  November 2024 to January 2025.</li>
+              <li>Replicate Q3–Q4 trading strategies (pricing, promotions, product bundles) to maximize revenue during high-demand periods.</li>
+              <li>Capitalize on high-demand periods high-traffic months by aligning staffing levels, operating hours, and inventory planning with historically strong sales months to prevent stockouts and service bottlenecks.</li>
+              <li> early-year revenue softness through tactical pricing, limited-time menu offerings, and seasonal drink promotions to increase Transactions and AOV during slower trading months.</li>
+              <li>Use monthly Sales, Transactions, and AOV as North Star Metrics to guide decisions on product mix, pricing adjustments, and peak-hour scheduling. Monitor MoM revenue shifts to proactively respond to demand changes, enabling faster operational adjustments rather than reactive decision-making.</li>
             </ul>
           </li>
         </ol>
@@ -94,322 +93,339 @@
   </tr>
 </table>
 <h2 align="center">Dataset Structure and ERD (Entity relationship diagram)</h2>
-<body>The database structure as seen below consists of four tables: orders, customers, geo_lookup, and order_status, with a total row count of 10,8127 records.</body>
+<body>The database structure as seen below consists of merely <strong>one table: fact_sales</strong>, with a total row count of 3636 records.</body>
 <div align="center">
-  <img width="680" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1739423466/TechSphere_ERD_CamilingJS">
-</div>
-<h1 align="center">Insights Deep-Dive</h1>
+  <img width="200" src="docs/data_model.png">
+</div>  
+
+## Insights Deep-Dive
+### Sales Trend
+
 <table align="center">
   <tr>
-    <h1 align="center">Sales Trend</h1>
     <td width="1000">
-      <img width="300" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1739895398/Sales_Line_Graph_wnql3v">
-    </td>
-    <td width="1000">
-      <img width="300" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1739896683/AOV_Line_Graph_CamilingJS">
-    </td>
-    <td width="1000">
-      <img width="300" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1739894907/Num_of_Orders_mfx5ap">
+      <img width="1000" src="docs/sales_trends.png">
     </td>
   </tr>
 </table>
-<table>
+<table align = "center">
   <tr>
-    <td>
+    <td width = "333" valign = "top">
       <strong>Sales Revenue</strong>
       <ol>
-        <li>Sharp Decline in Q4 2022 – A Major Sales Anomaly <ul>
-            <li>Historically, Q4 (Oct-Dec) has been the strongest quarter due to holiday shopping (Black Friday, Cyber Monday, Christmas sales). However, in 2022, <strong>Q4 sales plummeted</strong>. </li>
-            <li>December 2022 Sales Revenue was $262K (Previous years: $458K–$1.25M). This represents a <strong>~70-80% drop</strong> from Q4 2021 and an even sharper decline compared to Q4 2020. </li>
+        <li>Mid-Year Revenue Acceleration with a Clear Peak <ul>
+            <li>DailyGrind’s sales revenue shows a steady <strong>upward trajectory</strong> from early 2024, culminating in a <strong>pronounced peak</strong> around <strong>August 2024</strong>, where monthly revenue reached approximately R14K, materially above the <strong>R9K monthly average</strong>.</li>
+            <li>This period likely reflects increased foot traffic during mid-year trading months, supported by stable demand for core coffee offerings.</li>
           </ul>
         </li>
-        <li>Post-Pandemic Sales Normalization (2020-2022 Trends) <ul>
-            <li>2020 Sales Surge: The pandemic led to a significant boost in eCommerce sales, with Q2-Q4 2020 seeing a rapid increase (e.g., <strong>Q4 2020 was nearly double Q4 2019</strong>). </li>
-            <li>2021 Slight Slowdown: Sales remained high but started stabilizing, showing a decline from peak pandemic levels.</li>
-            <li>2022 Major Decline: A <strong>consistent drop in sales across all quarters</strong> suggests a post-pandemic correction, with inflation, lower consumer spending, or increased competition. </li>
+        <li>Late-Year Softening and Short-Term Dip <ul>
+            <li >Following the August peak, revenue declined sharply toward the end of 2024, reaching a low of approximately <strong>R6K</strong>, indicating a short-term contraction in trading performance.</li>
+            <li>This dip is more indicative of reduced transaction volume rather than pricing pressure, suggesting seasonal or operational factors rather than structural demand loss.</li>
           </ul>
         </li>
-        <li>Declining Growth Throughout 2022 – Indicating Weak Consumer Demand <ul>
-            <li>Each quarter in 2022 experienced a downward trend.</li>
-            <li>Q1: Started fairly strong ($704K in Jan) but lower than 2021.</li>
-            <li>Q2 - Q3: Dropped further, below $500K per month and continued decline through Q3 with Aug/Sep below $400K.</li>
-            <li>Q4: <strong>Historic low, indicating critical demand issues</strong>. This suggests customer retention, pricing, or product-market fit issues. TechSphere may need to re-strategize through marketing, promotions, or change in pricing. </li>
+        <li>Early 2025 Recovery Signals<ul>
+            <li>Revenue rebounds strongly in early 2025, returning to levels above the historical average.</li>
+            <li>This recovery suggests resilient baseline demand and confirms that the late-2024 decline was temporary rather than indicative of sustained underperformance.</li>
           </ul>
         </li>
       </ol>
-      <strong>Average Order Value</strong>
+    </td>
+    <td width = "333" valign = "top" >
+      <strong> Average Order Value </strong>
       <ol>
-        <li> Sharp AOV Surge in 2020, followed by a Decline in 2021-2022 <ul>
+        <li> Stable AOV with Limited Volatility<ul>
             <li>
-              <strong>2020 saw the highest AOV growth, peaking at $322 (Oct 2020)</strong> compared to $246 (Nov 2019), aligning with pandemic-driven eCommerce boom.
+              <strong>AOV remains relatively stable</strong> throughout the reporting period, <strong>averaging R31.91</strong>, with a narrow range between approximately <strong>R28 and </strong>.
             </li>
-            <li>Post-pandemic correction (2021-2022) led to a steady decline, with AOV in 2022 returning close to 2019 levels (~$234-$237).</li>
+            <li>This stability aligns with the dataset structure, where <strong>each transaction represents a single customer order</strong>, resulting in limited variability in order value.</li>
+            <li>AOV experienced a temporary dip around mid-2024, reaching a low of R27.99, before recovering and stabilising closer to the long-term average. This fluctuation likely reflects shifts in product mix (e.g. higher share of standard coffees versus premium drinks) rather than pricing changes.</li>
           </ul>
         </li>
-        <li>2022 AOV is lower and relatively more volatile compared to previous years <ul>
-            <li>
-              <strong>2022 AOV fluctuates significantly </strong> between $216 (Oct) and $256 (Sep).
-            </li>
-            <li>Q4 2022 AOV is significantly lower than Q4 2020 & 2021, meaning holiday spending per order has dropped.</li>
+        <li> Mid-Year Dip and Normalization <ul>
+            <li> AOV experienced a temporary dip around mid-2024, reaching a low of <strong>R27.99</strong>, before recovering and stabilising closer to the long-term average.</li>  
+            <li>This fluctuation likely reflects shifts in product mix (e.g. higher share of standard coffees versus premium drinks) rather than pricing changes.</li>
           </ul>
         </li>
-        <li>Long-Term AOV Decline May Indicate Price Sensitivity <ul>
-            <li>From a peak of ~$322 in 2020, AOV steadily dropped to ~$234 in 2022 which is 27% drop.</li>
-            <li>Over the span of four years, the change in AOV growth has been relatively constant, indicating minimal changes in product pricing (as illustrated in Sales Growth vs. AOV Growth below).</li>
-            <li>AOV in 2022 is likely not a major factor in the decline of sales that year.</li>
+        <li>Interpretation of AOV Trends <ul>
+            <li> Given the one-transaction-per-order structure, AOV should be interpreted as an indicator of menu pricing and item selection, not increased customer spend per visit.</li>  
+            <li>Changes in AOV primarily reflect the balance between premium and standard beverage purchases over time.</li>
           </ul>
         </li>
       </ol>
-      <strong>Order Count</strong>
+    </td>
+    <td width = "333" valign = "top">
+      <strong> Transaction Volume </strong>
       <ol>
-        <li>Order counts closely follow sales revenue, indicating that the decline in revenue is primarily due to <strong>fewer orders</strong> rather than a drop in AOV in 2022. </li>
-        <li>Total orders <strong>dropped by 38%</strong> from 2021 to 2022. </li>
-        <li>The sales anamoly and decline <strong>started in mid-2022</strong>, with orders falling from 2,034 in July to just 825 in October. </li>
-        <li>While people are spending slightly less per order, the <strong>decline in order frequency</strong> directly results in lower sales revenue. </li>
+        <li> Transaction Volume as the Primary Revenue Driver<ul>
+            <li>
+              Transaction counts closely mirror revenue trends, confirming that <strong>changes in total sales are driven mainly by order volume rather than AOV</strong>.
+            </li>
+            <li>The strongest transaction spike occurs around <strong>August 2024</strong>, peaking at approximately <strong>426 transactions</strong>, well above the <strong>average of 280</strong>.</li>
+          </ul>
+        </li>
+        <li>Late-Year Decline in Orders<ul>
+            <li> Transaction volume declines significantly toward the end of 2024, reaching a low of approximately <strong>196 transactions</strong>, which directly explains the observed revenue dip during the same period.</li>
+            <li> This suggests lower foot traffic or reduced visit frequency rather than changes in customer spend per order.</li>
+          </ul>
+        </li>
+         <li>Rebound in Early 2025<ul>
+            <li> A sharp recovery in transaction volume is observed in early 2025, driving the parallel rebound in sales revenue.</li>
+            <li> This reinforces the conclusion that DailyGrind’s performance is volume-led, with consistent pricing and stable order values.</li>
+          </ul>
+        </li>
       </ol>
     </td>
   </tr>
 </table>
-<div align="center">
-  <table>
-    <tr>
-      <h4>
-        <strong>Sales Growth follows seasonal fluctuations, while AOV remains relatively constant, except for the Sales Growth in October 2022</strong>
-      </h4>
-      <td>
-        <img width="900" alt="Sales Growth vs. AOV Growth" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1741247711/Sales_and_AOV_Growth_MOY_CamilingJS" />
-      </td>
-    </tr>
-  </table>
-</div>
+
+## Time Granularity Performance
+
 <table align="center">
   <tr>
-     <h1 align="center">Product Performance</h1>
       <div align="center">
         <h3>Product Sales Surged in 2020 but were not Sustained at High Levels</h3>
-        <img width="1000" alt="Product sales graph from 2019 to 2022" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1740121052/Product_Sales_Line_Graph_CamilingJS" />
+        <img width="1000" alt="Time Granularity Dashboard" src="docs/dashboard_time_granularity.png" />
       </div>
     <tr>
   </tr>
 </table>
-<table aign="center">
+<table align="center">
+  <tr>
+      <td width="333" valign="top">
+      <h3>Hourly Sales Dynamics</h3>
+      <body>Hourly sales patterns reveal a classic <strong>commuter-driven café demand curve</strong>, with revenue accelerating sharply from early morning and peaking during mid-morning to early afternoon.</body>
+      <ul>
+        <li><strong>Peak trading hours occur between 08:00 and 11:00</strong>, with the strongest single-hour performance reaching approximately <strong>R11K</strong>, materially above the hourly average of <strong>~R7K</strong>.</li>
+        <li>This window likely reflects <strong>pre-work coffee runs, mid-morning breaks, and takeaway demand</strong>, making it the most operationally critical period of the day.</li>
+        <li>Post-midday hours (12:00–15:00) remain relatively stable but slightly below peak, indicating sustained demand rather than a sharp drop-off.</li>
+        <li><strong>Evening and night trading hours show a gradual decline</strong>, with late-night hours falling well below the daily average. This suggests reduced foot traffic and more discretionary purchases rather than routine consumption.</li>
+      </ul>
+      <body><strong>Operational implication</strong>: Revenue is highly sensitive to execution during the morning rush. Small disruptions (understaffing, slower service, stockouts) during this window likely have an outsized impact on daily sales performance.</body>
+      </td>
+  <td width="333" valign="top">
+      <h3>Daily vs Weekly Sales Behaviour</h3>
+      <body>When viewed across the week, sales patterns demonstrate <strong>predictable weekday stability with mild volatility</strong>, rather than extreme spikes or collapses.</body>
+      <h4>Morning Performance</h4>
+      <ul>
+        <li>Morning sales average <strong>~R5.33K per day</strong>, with noticeable strength early in the week.</li>
+        <li>Demand softens slightly toward mid-week before recovering on Fridays, suggesting routine weekday commuting behaviour.</li>
+        <li>Expresso has a relatively low price point (R21.00). Its stable but do not significantly impact AOV.</li>
+        <li>Weekend mornings underperform relative to weekdays, indicating fewer early starts and a shift in customer routines.</li>
+      </ul>
+      <h4>Afternoon Performance</h4>
+      <ul>
+        <li>Afternoon sales are the most stable time segment, averaging <strong>~R5.56K</strong>.</li>
+        <li>Minor mid-week dips are followed by a gradual build-up toward the end of the week.</li>
+        <li>This consistency suggests afternoon traffic is driven by <strong>habitual repeat visits</strong>, such as lunch breaks or study/work sessions.</li>
+        <li>Weekend mornings underperform relative to weekdays, indicating fewer early starts and a shift in customer routines.</li>
+      </ul>
+      <h4>Afternoon Performance</h4>
+      <ul>
+        <li>Night sales average <strong>~R5.57K</strong>, but exhibit <strong>higher volatility</strong> than other periods.</li>
+        <li>Mid-week nights outperform weekends, likely reflecting weekday social or post-work consumption.</li>
+        <li>Weekend nights show a pronounced decline, implying reduced relevance of late trading hours for DailyGrind’s core customer base.</li>
+      <body><strong>Operational implication</strong>: Afternoon demand provides revenue stability, while night trading carries higher variability and risk. Staffing and operating hours should reflect this asymmetry.</body>
+      </ul>
+      </td>
+      <td width="333" valign="top">
+      <h3>Time of Day Contribution to Revenue and Transactions</h3>
+      <body>Despite similar total revenue contributions across time-of-day segments, transaction behavior reveals important nuances.</body>
+      <ul>
+        <li><strong>Afternoon generates the highest total sales (R39K)</strong> and the highest transaction count <strong>(1,228 transactions)</strong>, confirming it as the <strong>volume anchor</strong> of the business.</li>
+        <li><strong>Morning sales (R37K)</strong> occur across slightly fewer transactions <strong>(1,219)</strong>, <strong>implying marginally higher per-transaction value</strong> driven by premium coffee choices or add-ons.</li>
+        <li><strong>Night sales (R39K)</strong> match afternoon revenue but are supported by the lowest transaction count (1,183), indicating higher variability and potentially longer dwell times or bundled purchases.</li>
+      </ul>
+      <body><strongp>Operational implication</strongp>:
+        <li>Afternoon periods are critical for throughput and service efficiency.</li>
+        <li>Morning periods are critical for speed and consistency.</li>
+        <li>Night periods should be evaluated for cost-effectiveness rather than pure revenue contribution.</li></body>
+      </td>
+</tr>
+</table>
+<h3>Strategic Interpretation of Time-Based Demand</h3>
+<body>
+ <li>DailyGrind’s performance is front-loaded, with a disproportionate share of value created before midday.</li>
+ <li>Weekly demand patterns are structurally predictable, making them well-suited for rule-based scheduling and inventory planning.</li>
+ <li>Revenue softness during late hours suggests diminishing returns from extended operating hours without targeted interventions.</li>
+</body>
+
+## Key Product Performance
+
+<table align="center">
+  <tr>
+      <div align="center">
+        <h3>Product Sales Surged in 2020 but were not Sustained at High Levels</h3>
+        <img width="1000" alt="Product Comparison Dashboard" src="docs/dashboard_product_comparison.png" />
+      </div>
+    <tr>
+  </tr>
+</table>
+<table align="center"> 
   <tr>
       <td width="333" valign="top">
       <h3>The Best and Worst</h3>
       <ul>
-        <li>The 27 Inch 4K Gaming Monitor had consistently strong sales year over year totaling $9,850,744, and it is the highest revenue generating product overall.</li>
-        <li>The second and third best-performing products in terms of sales are the Apple AirPods Headphones ($7,739,617 total) and the MacBook Air Laptop ($6,295,309 total).</li>
-        <li>The Bose SoundSport Headphones ($3,339.04 total) had extremely low sales compared to other products, with no sales recorded in multiple months.</li>
-        <li>Despite being typically a high-demand product, the Apple Iphone is the second lowest sales performer with $213,327 total sales. </li>
+        <li> Latte consistently outperformed all other menu items, generating approximately R27,000 in total sales and maintaining strong month-over-month performance.</li>
+        <li> Americano with Milk (R25,000) and Cappuccino (R18,000) followed as the second and third highest revenue-generating products, indicating stable demand for core espresso-based drinks.</li>
+        <li> In contrast, Espresso recorded significantly lower total sales (R3,000) despite its typical popularity in café environments.
+        </li>
+        <li> Cortado also underperformed relative to the rest of the menu, with total sales of R8,000, suggesting limited customer uptake or weaker positioning.</li>
       </ul>
       </td>
   <td width="333" valign="top">
       <h3>AOV Over Time</h3>
       <ul>
-        <li>The AOV peaked in 2020 at $300.16 and then declined in 2021 ($254.71) and 2022 ($229.91).</li>
-        <li>MacBook Air Laptop ($1,591), ThinkPad Laptop ($1,101), and Apple Iphone ($741) are the biggest contributors to AOV. </li>
-        <li>Samsung Charging Cable Pack and Samsung Webcam have relatively low price points ($20.20 and $50.43 on average). They are stable but do not significantly impact AOV.</li>
-        <li>AOV is trending downward, but mainly due to a decline of product sales.</li>
+        <li> Average Order Value remained largely stable throughout the reporting period, reflecting the structural constraint that each transaction represents a single order.</li>
+        <li> AOV measured R31.87 in early 2024, declining slightly to R31.40, with a peak of R34.30 in April and a low of R28.00 in August.</li>
+        <li> Higher-priced beverages such as Hot Chocolate (R36.07), Cappuccino (R36.00), and Cocoa (R35.71) contributed disproportionately to AOV. Espresso, priced at R21.00, remained stable but had minimal influence on overall AOV trends.</li>
+        <li> The gradual downward trend in AOV aligns more closely with declining product sales volume than with pricing changes.</li>
       </ul>
       </td>
       <td width="333" valign="top">
-      <h3>Heat Map Findings</h3>
+      <h3>Transaction Volume Over Time</h3>
       <ul>
-        <li>Consistent Q4 spikes, likely due to Black Friday, Cyber Monday, and the holiday shopping season.</li>
+        <li> The transaction Volume over time were volatile  and matched the sales revenue indicating that it was the main contributor to the sales revenue. THE TRANSACTION WERE THE HIGHEST IN TH THIESE MONTHS DUE TO SEASONALIT AND OTHER FACTORS S</li>
         <li>Biggest Q4 Performer: The 27-inch 4K Gaming Monitor and Apple AirPods saw the biggest spikes.</li>
         <li>Sales tend to dip in January and February after the holiday season in Q1.</li>
         <li>MacBook Air, ThinkPad, and the 27-inch 4K Gaming Monitor maintain consistent demand, as sales through Q2 and Q3 remain relatively stable but lower than in Q4.</li>
-      </ul>
+      </ul> 
       </td>
 </tr>
 </table>
-<table align="center">
-    <tr align="center">
-      <td width="1000" valign="top">
-      <h3>AOV Over Time (2019-2022)</h3>
-      <img width="450" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1740156855/AOV_Products_BarGraph_CamilingJS">
-    </td>
-    <td width="1000">
-      <h3>Product Sales Heat Map by Quarter</h3>
-      <img width="450" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1740646006/Sales_Heatmap_CamilingJS">
-    </td>
-  </tr>
-</table>
 
+## Recommendations
 
-</table>
-<table align="center">
+<table align="center"> 
   <tr>
-    <h1 align="center">Loyalty Program Learnings</h1>
-    <table align="center">
-    <tr align="center">
-      <td width="1000">
-      <h3>Average Order Value by Loyalty Status</h3>
-      <img width="450" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1740552359/AOV_by_Loyalty_Status_Camiling">
-    </td>
-    <td width="1000">
-      <h3>Number of Orders by Loyalty Status</h3>
-      <img width="450" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1742758110/OrderCount_by_Loyalty_Status_Camiling.png">
-    </td>
-  </tr>
-</table>
-    <table>
-      <tr>
-        <td>
-          <ul>
-            <li>Loyalty members have sustained AOV growth beyond the pandemic boom, with sales revenue increasing from $0.4M in 2019 to $2.7M in 2022 and an AOV growth rate of 18% from 2019 to 2022. Loyalty members continued to purchase higher-priced products and place more orders after the pandemic boom, up until August 2022.</li>
-            <li>Non-loyalty members have not sustained sales revenue and AOV growth beyond the pandemic boom, with sales revenue decreasing from $3.4M in 2019 to $2.2M in 2022, along with an AOV decline of 8% during the same period.</li>
-            <li>In 2022, loyalty members spent almost $31 more on average than non-loyalty members ($245 vs. $214). AOV for loyalty members has steadily increased year over year, climbing 1.1% from 2021, while non-loyalty members' AOV declined by 18.7%.</li>
-            <li>Loyalty members outspend non-loyalty members on returning orders by nearly $60, whereas non-loyalty members have historically spent more on their first TechSphere orders.</li>
-          </ul>
-        </td>
-      </tr>
-    </table>
-  </tr>
-</table>
-<table align="center">
-  <h1 align="center">Refund Rates</h1>
-  <tr>
-    <td width="500">
-       <div valign="top" align="center">
-      <h3>Refund Rate per Product Type</h3>
-      <img alt="Refund heat map of products" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1740637891/Refund_Rates_Per_Product_Heatmap_CamilingJS" />
-    </div>
-    </td>
-    <td valign="top" width="500">
+      <td width="333" valign="top">
+      <h3> Sales Revenue</h3>
       <ul>
-        <li>Laptops have the lowest retention rate, with the highest return rate year over year being the ThinkPad Laptop, followed by the MacBook Air Laptop.</li>
-        <li>Coincidentally, these two items have the highest AOV and are TechSphere's most expensive products.</li>
-        <li>The least returned product is the Bose SoundSport Headphones, with a return rate of 0%, followed by the Samsung Charging Cable Pack, with an average return rate of 2%.</li>
-        <li>However, the Bose SoundSport Headphones are the least frequently purchased product, and the Samsung Charging Cable Pack ranks in the bottom half of purchase orders.</li>
-        <li>For 2022, there were no recorded returns for any product.</li>
+        <li> Prioritize operational readiness (staffing, stock, prep capacity) during historically strong trading months and peak hours.</li>
+        <li> Actively monitor month-over-month revenue changes and adjust operating intensity (hours, staffing, stock depth) rather than reacting to daily fluctuations.</li>
+        <li> Focus revenue growth efforts on capturing existing demand efficiently, particularly during peak trading hours, before introducing additional promotions.</li>
       </ul>
-    </td>
-  </tr>
-</table>
-<table align="center">
-  <h1 align="center">Regional Results</h1>
-      <div align="center">
-        <img width="1000" alt="Sales by region" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1743795515/Regional_Barbel_Graph_CamilingJS" />
-      </div>
-  <tr valign="top">
-     <td width="900">
+      </td>
+  <td width="333" valign="top">
+      <h3>AOV </h3>
       <ul>
-        <li>The North American region contributes the most to sales revenue for each TechSphere product.</li>
-          <ul>
-            <li>An average of 52% of total sales per product.</li>
-            <li>$2.7 million in 2022.</li>
-          </ul>
-        <li>In contrast, TechSphere sales have underperformed in the Latin American region.</li>
-          <ul>
-            <li>Each product accounts for only an average of 6% of total sales.</li>
-            <li>$256 thousand in 2022.</li>
-          </ul>
-        <li>Samsung Webcam see their highest sales rate in North America.</li>
-          <ul>
-            <li>58% of total sales occur in this region.</li>
-          </ul>
-        <li>The 27-Inch 4K Gaming Monitor is the most popular across products.</li>
-          <ul>
-            <li>Accounts for 35% of total product sales.</li>
-          </ul>
-        <li>Meanwhile, the Bose SoundSport Headphones are the least favored.</li>
-          <ul>
-            <li>Sales are close to 0% across products</li>
-          </ul>
+        <li> Maintain AOV stability by actively managing product mix, ensuring higher-priced drinks are consistently visible and available.</li>
+        <li> Introduce or rotate premium beverages during slower periods to support revenue without increasing order complexity.</li>
+        <li> Use sustained AOV changes as a trigger to review pricing or menu composition, not customer behavior.</li>
       </ul>
-    </td>
-  </tr>
+      </td>
+      <td width="333" valign="top">
+      <h3>Transaction Volume</h3>
+      <ul>  
+        <li>Increase transaction count by targeting low-traffic time windows with time-based initiatives that encourage incremental visits.</li>
+        <li>Protect transaction throughput during peak hours by eliminating service bottlenecks, ensuring adequate staffing and prep capacity.</li>
+        <li>Track transaction trends by hour and time of day to identify emerging demand shifts and adjust operations accordingly.</li>
+      </ul>  
+      </td>
+</tr>
 </table>
-<!-- <table>
-  <tr>
-    <td width="700" border="0"><h1>Recommendations</h1>
-    <h4>Based on the uncovered insights, here are actionable items that TechSphere can take away from our analysis.</h4></td>
-    <td width="400" border="0"><div align="right">
-      <img width="192" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1739421238/TechShere_Logo_CamilingJS" />
-    </div></td>
-  </tr>
-</table> -->
-<table align="center">
-    <h1>Recommendations</h1>
-    <h4>Based on the uncovered insights, here are actionable items that TechSphere can take away from our analysis.</h4>
-      <ul>
-        <h3>Sales</h3>
-        <li>Remedy sales lows due to seasonal fluctuations in January and February by increasing marketing campaigns during these low-sales periods.</li>
-          <ul><li>The average sales growth year-over-year for January is -12%, and for February, it is -23%.</li>
-          <li>Average Sales Growth for Q4 post-pandemic is -17%.</li></ul>
-        <li>Win back lost customers after the pandemic boom by implementing marketing or promotional campaigns for returning customers.</li>
-          <ul><li>The average year-over-year sales growth post-pandemic is -28%.</li>
-          <li>The average year-over-year order count growth post-pandemic is -17%.</li></ul>
-        <h3>Products</h3>
-        <li>Optimize inventory for high-performing products year-round.</li>
-          <ul><li>The 27-Inch 4K Gaming Monitor is the strongest product in terms of sales, approaching $10 million over four years.</li>
-          <li>The Apple AirPods are also a strong-selling product, with close to $8 million in sales over four years.</li></ul>
-        <li>Deprioritize inventory for low-performing products.</li>
-          <ul><li>Bose SoundSport Headphones and Apple iPhone constitute for nearly 0% of total purchase orders.</li></ul>
-        <li>Investigate sales for MacBook Air laptops.</li>
-          <ul><li>MacBook Air Laptops rank third in sales revenue (22%) but fall in the bottom half for number of purchase orders (3.67%).</li></ul>
-        <h3>Loyalty Program</h3>
-        <li>Continue a strong push for the loyalty program to boost and stabilize sales, as loyalty members are more likely to return as customers and purchase high-priced items.</li>
-          <ul><li> Loyalty Member AOV grew 18% from 2019 to 2022</li>
-            <li>Loyalty members spent $31 more on average than non-loyalty members in 2022.</li></ul>
-        <li>Offer incentives for loyalty members to target purchases of MacBook Air laptops.</li>
-          <ul><li>Loyalty members align with the ideal user persona for MacBook Air laptops, as they purchase high-priced products, are more likely to return as customers, and rarely make returns.</li></ul>
-        <h3>Refund Rates</h3>
-        <li>Streamline product quality control for for high AOV products as as they are the most frequently returned products.</li>
-          <ul><li>Macbook Air Laptops had an average return rate of 14% from 2019 to 2021.</li>
-          <li>Thinkpad Laptops also had an average return rate of 14% from 2019 to 2021.</li></ul>
-        <h3>Regions</h3>
-        <li>Maximize market share in North America, as this region dominates sales across all TechSphere products.</li>
-          <ul><li>52% of product sales were in the North American region.</li></ul>
-        <li>Diversify the portfolio in the Latin American region by expanding localized product offerings, sales channels, and market reach to increase sales revenue and purchase orders.</li>
-          <ul><li>Only 6% of product sales were in the Latin American region.</li></ul>
-        <li>Continue to streamline high-performing products.</li>
-          <ul><li> The demand for the 27-inch 4K Gaming Monitor and Apple AirPods headphones remains high relative to the region.</li></ul>
-      </ul>
-</table>
-
-
+       
 ## Clarifying Questions, Assumptions, and Caveats
 
 ### Questions for Stakeholders Prior to Project Advancement
 
-- **Unmatched `customer_id` Records**
-    - Which table should be the primary source for `customer_id` to maintain data consistency across analyses?
-
-- **`marketing_channel` and `account_creation_method` in the `customers` table**
-    - How is this data recorded, and what does it specifically represent?
-    - What factors contribute to their deterministic relationship?
-    - Does `marketing_channel` capture the initial account creation touchpoint, or does it represent the origin of each individual purchase (which is more relevant for tracking sales)?
-
-- **`loyalty_program` in the `customers` table**
-    - Is `loyalty_program` account-specific or tied to individual orders?
-    - Can loyalty membership status vary between orders for the same user, i.e., is it a subscription or a one-time sign-up?
+<table align="center">
+  <tr>
+      <td width="333" valign="top">
+      <strong>Sales Value per Transaction (`sales`)</strong>
+      <ul>
+        <li>Does this value represent gross revenue per completed transaction?</li>
+        <li>Are refunds, voids, or discounts ever applied outside this dataset?</li>  
+        <li>Should future reporting reflect net sales instead of gross sales?</li>  
+        <li>Does each sales value correspond to one complete order placed by a single customer?</li>
+      </ul>
+      </td>
+  <td width="333" valign="top">
+      <strong>Product Identification and Pricing (`coffee_name`)</strong>
+      <ul>  
+        <li>Are product names consistent and stable across the full reporting period?</li>  
+        <li>Were there any price changes, recipe changes, or menu removals/additions during the timeframe?</li>
+        <li>Does the same product name always correspond to the same price point?</li>
+      </ul>
+      </td>
+      <td width="333" valign="top">
+      <strong>Transaction Timing and Operating Hours (`datetimes`, `dates`, `hour_of_day`, `time_of_day`)</strong>
+      <ul>
+        <li>Does each timestamp correspond to one individual customer order event, rather than batch or end-of-day posting?</li>  
+        <li>Do timestamps reflect the actual moment of customer purchase?</li>  
+        <li>Do timestamps reflect the actual moment of customer purchase?</li>  
+        <li>Were there any periods of offline POS usage or delayed transaction syncing?</li>
+        <li>Are store operating hours consistent across all days represented?</li>
+      </ul>
+      </td>
+</tr>
+</table>
 
 ### Assumptions and Caveats
 
-- **Refund Records**: No refunds were recorded for 2022, which is an anomaly warranting further examination.
-- **Deterministic Relationship in Data**: Each `marketing_channel` is uniquely linked to one `account_creation_method`, indicating a one-to-one mapping. This lack of variation may require attention from the data engineering team to confirm intended relationships.
-    - ![One to One Mapping](Data/visualizations/order_count_channelxmethod.webp)
-- **Loyalty Program Clarification**:
-    - Ambiguity exists in the `loyalty_program` variable—it's unclear if it's tied to the user's account or is specific to individual orders.
-    - Can a user be a loyalty member for one purchase and not another? This clarification is essential for accurately measuring program performance.
-- **Sales and Marketing Channels**: Direct and email channels are top drivers of sales, yet the link between these channels and the loyalty program is uncertain due to deterministic channel-account-order relationships.
-    - **Attribution of Purchases to Channels**: Ideally, each purchase would be attributed to the marketing channel that directly led to it, rather than defaulting all future purchases to the initial channel. However, the current dataset reflects the entry point at account creation, not at individual purchase. Despite this, the data provides insights on loyalty membership by channel:
-        - **Email Channel**: Highest loyalty membership rate at 58%.
-        - **Direct Channel**: Largest loyalty membership count, with 32,906 members (72% of all loyalty members).
-    - These metrics could inform strategic channel emphasis to boost loyalty engagement.
-- **Unmatched Customer Records**: Approximately 27k (25%) of transactions have `customer_id`s not present in the `customers` table. This discrepancy suggests missing data or data entry errors, impacting SQL queries and resulting in NULLs when joining on `customer_id`.
-    - This issue arises from the segmented structure of SQL tables (`orders`, `customers`, `geo_lookup`, `order_status`). However, in Excel, where all data resides in a single table, this issue doesn't occur.
+ > **Business Context**  
+ > **DailyGrind** is a *fictional* boutique coffee shop used for analytical and portfolio demonstration purposes.
+ > The dataset reflects realistic café-style transactional behavior.
+
+#### Data Assumptions
+
+|Category  | Assumption |
+|---------|---------|
+|**Business Context**| DailyGrind is a fictional boutique cafe; the dataset reflects realistic cafe transactions.|
+|**Transaction Granularity**| Each row = one completed customer order; transactions are anonymous.|
+|**Sales Value**| Represent gross revenue per transaction; refunds, voids, or discounts are negligible.|
+|**Timestamps**| Reflect actual purchase time; operating hours assumed consistent; no delayed syncing.|
+| **Product Data**|  Reflect actual purchase time; operating hours assumed consistent; no delayed syncing.|
+
+#### Data Constraints
+
+- No customer identifiers → cannot track repeat visits or lifetime value.
+- Contextual drivers (promotions, marketing, intent) are not captured.
+- Product add-ons/modifiers missing → higher-value orders may be underestimated.
+
+#### Analysis Caveats
+
+##### Revenue & AOV
+
+- AOV reflects pricing and product mix, not customer spend intensity.
+- Revenue changes driven by transaction count and item composition.
+
+##### Time Granularity
+
+- Daily trends are sensitive to operational/environmental factors (weather, staffing, load shedding, university recess).
+- Weekly/monthly aggregation smooths volatility; dataset only covers one year.
+- Peak periods indicate transaction concentration, not service efficiency.
+
+##### Product Performance
+
+- Revenue shifts can reflect mix changes more than demand volume.
+- Assumes consistent product availability; stockouts/supplier issues not captured.
+- Category comparisons should consider differences in frequency and price.
+
+#### Analytical Scope
+
+- Insights based solely on POS transactions.
+- Supports operational decisions: staffing, product mix, peak-hour alignment.
+- Customer behavior and promotional impact analysis are outside the dataset scope.
+
+
+## Tools and Technology Used
+
+- **[Datasets](datasets/):** Access to the project dataset (csv files).
+- **[SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Lightweight server for hosting your SQL database.
+- **[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16):** GUI for managing and interacting with databases.
+- **[Git Repository](https://github.com/):** Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
+- **[Visual Studio Code](https://code.visualstudio.com/):** Write, debug and test SQL scripts and analytics code.
+- **[DrawIO](https://www.drawio.com/):** Design data architecture, models, flows, and diagrams.
+- **[Notion](https://www.notion.com/):** All-in-one tool for project management and organization.
+
+## Next Steps
+
 
 ***
 
-- See the raw data and my cleaning, analysis, and pivot tables in the [Excel workbook](Exploration/bytex_ecommerce_analysis.xlsx).
-- See my SQL queries in the [SQL file](Exploration/ecommerce_exploration.sql).
-- See the notebook for data cleaning, visualization, and analysis in the [Python Notebook](Exploration/ecommerce_analysis.ipynb).
-- For more of my projects and data journey, visit my [portfolio website and reach out](https://ruizdelcarmen.me/)!
-
-
+- See my SQL queries for data exploration and advanced analysis in the **[Scripts Folder](scripts/)**.
+- See the notebook for data cleaning, visualization, and analysis in the **[Python Notebook](docs/dailygrind_eda_and_visualisation.ipynb)**.
+- For more of my projects and data journey, visit my **[github portfolio and reach out](https://github.com/makobemashoto)**!
 
 ## Author
 
@@ -420,4 +436,3 @@
   [![GitHub](https://img.shields.io/badge/Github-CFA075.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/makobemashoto)
  <!-- [![Medium](https://img.shields.io/badge/Medium-CFA075.svg?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@mmashoto)-->
 </div>
-
