@@ -2,3 +2,7 @@
 *.drawio
 # ignore Microsoft Word Document file
 *.docx
+#ignore Tableau Dashboard file
+*.twbx
+
+
