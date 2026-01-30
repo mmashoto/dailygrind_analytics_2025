@@ -1,0 +1,43 @@
+Operational Recommendations
+1. Align Staffing with Transaction-Driven Demand
+Sales performance is primarily driven by transaction volume, not order value.
+Increase staffing levels during historically high-volume periods (mid-year and peak months such as August) to:
+reduce queue times,
+maintain service speed,
+prevent lost sales during rush periods.
+During lower-volume months, optimise staffing schedules rather than reducing operating hours to preserve service consistency.
+Operational Impact: Higher throughput during peak hours without sacrificing customer experience.
+2. Optimise Operating Hours Around Proven Demand
+Transaction spikes indicate concentrated demand windows, not evenly distributed sales throughout the day.
+Use hour_of_day and time_of_day trends to:
+extend staffing coverage during peak morning and midday periods,
+reduce overstaffing during consistently low-traffic hours.
+Operational Impact: Lower labour cost leakage while maintaining peak-hour readiness.
+3. Protect Revenue During Seasonal Slowdowns
+The late-year decline shows that volume drops can materially impact revenue even when AOV is stable.
+Introduce volume-stimulating tactics during slower months:
+time-based promotions (e.g. early-morning or mid-afternoon offers),
+bundled coffee + pastry deals,
+limited-time seasonal drinks to encourage repeat visits.
+Operational Impact: Stabilises transaction counts during off-peak periods without discounting core products aggressively.
+4. Maintain Pricing Discipline and Menu Simplicity
+Stable AOV suggests pricing and menu structure are well-aligned with customer expectations.
+Avoid frequent price changes that may introduce unnecessary volatility.
+Focus on:
+ensuring consistent product availability,
+highlighting higher-margin premium drinks during peak hours.
+Operational Impact: Preserves margin stability while allowing revenue growth through volume.
+5. Inventory Planning Based on Volume, Not Spend
+Since each transaction represents a single order, inventory demand scales with number of transactions, not basket size.
+Use transaction volume trends to:
+forecast ingredient usage more accurately,
+prevent stockouts during high-traffic periods,
+reduce wastage during slower months.
+Operational Impact: Better cost control and fewer service disruptions.
+6. Use Monthly Metrics as Operational Control Signals
+Track Sales Revenue, Transaction Volume, and AOV as operational “health checks.”
+Sharp declines in transaction volume should trigger immediate review of:
+staffing adequacy,
+operating hours,
+external factors (weather, load shedding, nearby competition).
+Operational Impact: Faster, proactive decision-making instead of reactive adjustments.
