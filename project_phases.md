@@ -44,11 +44,23 @@ The dashbaord design process employs a rigorous and detailed-oriented methodolog
 * Add filters for interactivity
 * Add icons (logo and navigation between dashboards)
 
-<h1> Dashboard Mockup</h1>
-
 <h1>Container Mockup</h1>
  
-![Container Mockup](docs/container_mockup.png)
+<table align="center">
+  <tr>
+    <td width="333">
+      <h2>Container Mockup 1 : Sales <h2>
+      <img width="1000" src="docs/container_mockup_sales_trends.png">
+    </td>
+    <td width="333">
+      <img width="1000" src="docs/container_mockup_product_comparison.png">
+    </td>
+    <td width="333">
+      <img width="1000" src="docs/container_mockup_time_granularity.png">
+    </td>
+  </tr>
+</table>
+
 
 The high-fidelity dashboard container mockup presents a comprehensive visualisation of the interface's structural framework. 
 Key components include:
@@ -62,7 +74,7 @@ Key components include:
 * A supplementary sidebar feauring menu options
 * ~~ A footer providing aucillary information ~~
 
-This mockup provides a visual representation of the dashboard's structure, user interface, and key element placements, effectively demonstrating the flow and organization of data insights.
+These mockups provides a visual representation of the dashboard's structure, user interface, and key element placements, effectively demonstrating the flow and organization of data insights.
 
 <h1> Dashboard Color Scheme</h1>
 
