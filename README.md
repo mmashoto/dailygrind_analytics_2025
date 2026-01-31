@@ -2,9 +2,8 @@
 <div align="center">
   <img width="120px" src="docs/dailygrind_logo.png" alt=  "Company Logo"/>
 </div>
-<h1 align = "center"><b>DailyGrind Performance Report</b></h1>
-
-<h1 id="top"> Table of Contents</h1>
+<h1 align = "center"><strong>DailyGrind Performance Report</strong></h1>
+<h2 id="top"> Table of Contents</h2>
 
 - [Project Background](#project-background)
 - [Executive Summary](#executive-summary)
@@ -433,6 +432,6 @@
   
   [![Gmail](https://img.shields.io/badge/Gmail-CFA075.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mashoto.makobe99@gmail.com)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-CFA075.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/makobemashoto/)
-  [![GitHub](https://img.shields.io/badge/Github-CFA075.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/makobemashoto)
+  [![GitHub](https://img.shields.io/badge/Github-CFA075.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mmashoto)
  <!-- [![Medium](https://img.shields.io/badge/Medium-CFA075.svg?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@mmashoto)-->
 </div>
