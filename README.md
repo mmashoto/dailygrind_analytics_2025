@@ -47,7 +47,7 @@
     <div width="920">
       <h3 align="center">Sales Revenue Analysis (2024 - 2025)</h3>
       <div align="center">
-        <img width="1000px" src="docs/Executive Summary.png" alt=  "Dashboard(Executive Summary)"/>
+        <img width="1000px" src="docs/executive_summary.png" alt=  "Dashboard(Executive Summary)"/>
       </div>
       <td width="460" valign="top">
         <ol>
@@ -419,6 +419,13 @@
 
 ## Next Steps
 
+<ul>
+ <li>Automate the analytics pipeline using Python to orchestrate scheduled data ingestion, data quality checks, feature engineering (e.g. time-based features, product groupings), and automated dashboard refreshes for consistent, reproducible reporting.</li>
+ <li>Extend the analytical data model to support basket-level and modifier-level analysis, enabling deeper exploration of product mix, true basket value, price sensitivity, and time-based purchasing patterns.</li>
+</ul>
+
+
+***
 
 ***
 
@@ -426,12 +433,18 @@
 - See the notebook for data cleaning, visualization, and analysis in the **[Python Notebook](docs/dailygrind_eda_and_visualisation.ipynb)**.
 - For more of my projects and data journey, visit my **[github portfolio and reach out](https://github.com/makobemashoto)**!
 
-## Author
+## Author - Mashoto Makobe
 
 <div align="center">
   
   [![Gmail](https://img.shields.io/badge/Gmail-CFA075.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mashoto.makobe99@gmail.com)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-CFA075.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/makobemashoto/)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-CFA075.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mmashoto)
   [![GitHub](https://img.shields.io/badge/Github-CFA075.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mmashoto)
  <!-- [![Medium](https://img.shields.io/badge/Medium-CFA075.svg?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@mmashoto)-->
+</div>
+
+<!-- Back to Top Badge -->
+<div align="right">
+
+  [![Back to Top](https://img.shields.io/badge/%E2%8679-Back%20to%20Top-341102?style=for-the-badge&logoColor=white)](#top)
 </div>
