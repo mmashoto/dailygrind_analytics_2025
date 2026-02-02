@@ -1,24 +1,25 @@
-<h1> Dashbaord Design Process</h1>
+# Dashbaord Design Process
 
 ![Dashboard Design Process](docs/project_phases.png)
 
 The dashbaord design process employs a rigorous and detailed-oriented methodology to create an intuitive and insightful interface, providing users with a seamless and informative experience. This structured approach is comprised of the following key phases:
 
-<h2> 1 Analyze Requirements</h2>
+
+### 1 Analyze Requirements
 
 * Collect requirements
 * Choose right charts
 * Draw mockup
 * Choose colors
 
-<h2> 2 Build Data Source </h2>
+### 2 Build Data Source
 
 * Connect data
 * Create  data model
 * Rename fields of tables
 * Check data type
 
-<h2> 3 Build Charts </h2>
+### 3 Build Charts 
 
 * Create calculated fields and test them
 * Build charts
@@ -29,7 +30,7 @@ The dashbaord design process employs a rigorous and detailed-oriented methodolog
   * coloring
   * tooltips
 
-<h2> 4 Build Dashboard </h2>
+### 4 Build Dashboard
 
 * Draw mockup for containers
 * Create container structure
@@ -44,19 +45,21 @@ The dashbaord design process employs a rigorous and detailed-oriented methodolog
 * Add filters for interactivity
 * Add icons (logo and navigation between dashboards)
 
-<h1>Container Mockup</h1>
+## Container Mockup
  
 <table align="center">
   <tr>
     <td width="333">
-      <h2>Container Mockup 1 : Sales <h2>
+      <h4>Container Mockup 1 : Sales <h4>
       <img width="1000" src="docs/container_mockup_sales_trends.png">
     </td>
     <td width="333">
+      <h4>Container Mockup 1 : Product Comparison <h4>
       <img width="1000" src="docs/container_mockup_product_comparison.png">
     </td>
     <td width="333">
-      <img width="1000" src="docs/container_mockup_time_granularity.png">
+      <h4>Container Mockup 1 : Time Granularity <h4>
+      <img width="1000" src="docs/container_mockup_time_granularity.png"> 
     </td>
   </tr>
 </table>
@@ -76,7 +79,7 @@ Key components include:
 
 These mockups provides a visual representation of the dashboard's structure, user interface, and key element placements, effectively demonstrating the flow and organization of data insights.
 
-<h1> Dashboard Color Scheme</h1>
+## Dashboard Color Scheme
 
 ![Dashboard Color Scheme](docs/dashboard_color_scheme.png)
 
