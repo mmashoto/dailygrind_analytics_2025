@@ -27,6 +27,7 @@
     <WorksheetBackgroundTransparency />
     <ZoneBackgroundTransparency />
     <ZoneFriendlyName />
+    <ZoneVisibilityControl />
   </document-format-change-manifest>
   <repository-location derived-from='https://vizhub/workbooks/SalesCustomerDashboardsDynamic?rev=3.0' id='SalesCustomerDashboardsDynamic' path='/workbooks' revision='3.0' />
   <preferences>
@@ -568,6 +569,10 @@
           <folder-item name='[MoM % Transactions (copy 2)_235031627627323402]' type='field' />
           <folder-item name='[PM Transations (copy)_832603002928128041]' type='field' />
         </folder>
+        <folder name='SALES'>
+          <folder-item name='[Calculation_832603002877792276]' type='field' />
+          <folder-item name='[Calculation_832603002893647893]' type='field' />
+        </folder>
         <folder name='Time Granularity'>
           <folder-item name='[Calculation_832603002488246277]' type='field' />
           <folder-item name='[Calculation_832603002490732550]' type='field' />
@@ -576,10 +581,6 @@
         <folder name='Time Granularity Tooltips'>
           <folder-item name='[Calculation_832603002519158791]' type='field' />
           <folder-item name='[cf_Sales vs Avg (copy)_832603002531086345]' type='field' />
-        </folder>
-        <folder name='Yearly Sales'>
-          <folder-item name='[Calculation_832603002877792276]' type='field' />
-          <folder-item name='[Calculation_832603002893647893]' type='field' />
         </folder>
       </folders-common>
       <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
@@ -598,6 +599,7 @@
               <aggregation>Year</aggregation>
               <approx-count>413</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[coffee_sales.csv_6329161792D643CFA0670A9AE6337EC4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>datetimes</remote-name>
@@ -611,6 +613,7 @@
               <aggregation>Year</aggregation>
               <approx-count>3636</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[coffee_sales.csv_6329161792D643CFA0670A9AE6337EC4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>hour_of_day</remote-name>
@@ -624,6 +627,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>17</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[coffee_sales.csv_6329161792D643CFA0670A9AE6337EC4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>cash_type</remote-name>
@@ -638,6 +642,7 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <object-id>[coffee_sales.csv_6329161792D643CFA0670A9AE6337EC4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>card</remote-name>
@@ -652,6 +657,7 @@
               <approx-count>1000</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <object-id>[coffee_sales.csv_6329161792D643CFA0670A9AE6337EC4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>sales</remote-name>
@@ -665,6 +671,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>18</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[coffee_sales.csv_6329161792D643CFA0670A9AE6337EC4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>coffee_name</remote-name>
@@ -679,6 +686,7 @@
               <approx-count>8</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <object-id>[coffee_sales.csv_6329161792D643CFA0670A9AE6337EC4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>time_of_day</remote-name>
@@ -693,6 +701,7 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <object-id>[coffee_sales.csv_6329161792D643CFA0670A9AE6337EC4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>weekdays</remote-name>
@@ -707,6 +716,7 @@
               <approx-count>7</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <object-id>[coffee_sales.csv_6329161792D643CFA0670A9AE6337EC4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>month_name</remote-name>
@@ -721,6 +731,7 @@
               <approx-count>12</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <object-id>[coffee_sales.csv_6329161792D643CFA0670A9AE6337EC4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>weekday_sort</remote-name>
@@ -734,6 +745,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>7</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[coffee_sales.csv_6329161792D643CFA0670A9AE6337EC4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>month_sort</remote-name>
@@ -747,6 +759,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>12</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[coffee_sales.csv_6329161792D643CFA0670A9AE6337EC4]</object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -798,6 +811,105 @@
             </map>
             <map to='#cfa075'>
               <bucket>&quot;below&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:coffee_name:nk]' type='palette'>
+            <map to='#000000'>
+              <bucket>&quot;Espresso&quot;</bucket>
+            </map>
+            <map to='#4a2c1a'>
+              <bucket>&quot;Americano&quot;</bucket>
+            </map>
+            <map to='#4a2c1a'>
+              <bucket>&quot;Cortado&quot;</bucket>
+            </map>
+            <map to='#5c3317'>
+              <bucket>&quot;Cocoa&quot;</bucket>
+            </map>
+            <map to='#8b4513'>
+              <bucket>&quot;Hot Chocolate&quot;</bucket>
+            </map>
+            <map to='#a67b5b'>
+              <bucket>&quot;Cappuccino&quot;</bucket>
+            </map>
+            <map to='#d2b48c'>
+              <bucket>&quot;Americano with Milk&quot;</bucket>
+            </map>
+            <map to='#f5f5dc'>
+              <bucket>&quot;Latte&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:time_of_day:nk]' type='palette'>
+            <map to='#4a1903'>
+              <bucket>&quot;Night&quot;</bucket>
+            </map>
+            <map to='#b37d46'>
+              <bucket>&quot;Afternoon&quot;</bucket>
+            </map>
+            <map to='#d2b48c'>
+              <bucket>&quot;Morning&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#444444'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[sum:Calculation_832603002905485337:qk]&quot;</bucket>
+            </map>
+            <map to='#444444'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Calculation_832603002927087655:qk]&quot;</bucket>
+            </map>
+            <map to='#444444'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:CM Sales (copy)_832603002922270755:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[cum:sum:sales:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[diff:sum:sales:qk:1]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[diff:sum:sales:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[pcto:sum:sales:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[sum:Calculation_832603002593853453:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[sum:sales:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:CY Transations (copy)_235031627473256455:qk]&quot;</bucket>
+            </map>
+            <map to='#adadad'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[sum:CM Sales (copy)_832603002913419292:qk]&quot;</bucket>
+            </map>
+            <map to='#adadad'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:CM AOV (copy)_832603002924900388:qk]&quot;</bucket>
+            </map>
+            <map to='#adadad'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:CM Transations (copy)_832603002927546408:qk]&quot;</bucket>
+            </map>
+            <map to='#cfa075'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Min/Max Sales (copy)_235031627479339017:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[sum:sales:qk]:1&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Min/Max Sales (copy)_235031627470831621:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Calculation1:qk:3]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Calculation1:qk:5]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Calculation1:qk]&quot;</bucket>
             </map>
           </encoding>
           <encoding attr='color' field='[none:cash_type:nk]' type='palette'>
@@ -987,105 +1099,6 @@
               <bucket>&quot;Below Avg |1631&quot;</bucket>
             </map>
           </encoding>
-          <encoding attr='color' field='[none:time_of_day:nk]' type='palette'>
-            <map to='#4a1903'>
-              <bucket>&quot;Night&quot;</bucket>
-            </map>
-            <map to='#b37d46'>
-              <bucket>&quot;Afternoon&quot;</bucket>
-            </map>
-            <map to='#d2b48c'>
-              <bucket>&quot;Morning&quot;</bucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[none:coffee_name:nk]' type='palette'>
-            <map to='#000000'>
-              <bucket>&quot;Espresso&quot;</bucket>
-            </map>
-            <map to='#4a2c1a'>
-              <bucket>&quot;Americano&quot;</bucket>
-            </map>
-            <map to='#4a2c1a'>
-              <bucket>&quot;Cortado&quot;</bucket>
-            </map>
-            <map to='#5c3317'>
-              <bucket>&quot;Cocoa&quot;</bucket>
-            </map>
-            <map to='#8b4513'>
-              <bucket>&quot;Hot Chocolate&quot;</bucket>
-            </map>
-            <map to='#a67b5b'>
-              <bucket>&quot;Cappuccino&quot;</bucket>
-            </map>
-            <map to='#d2b48c'>
-              <bucket>&quot;Americano with Milk&quot;</bucket>
-            </map>
-            <map to='#f5f5dc'>
-              <bucket>&quot;Latte&quot;</bucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[:Measure Names]' type='palette'>
-            <map to='#444444'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[sum:Calculation_832603002905485337:qk]&quot;</bucket>
-            </map>
-            <map to='#444444'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Calculation_832603002927087655:qk]&quot;</bucket>
-            </map>
-            <map to='#444444'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:CM Sales (copy)_832603002922270755:qk]&quot;</bucket>
-            </map>
-            <map to='#4e79a7'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k]&quot;</bucket>
-            </map>
-            <map to='#4e79a7'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[cum:sum:sales:qk]&quot;</bucket>
-            </map>
-            <map to='#4e79a7'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[diff:sum:sales:qk:1]&quot;</bucket>
-            </map>
-            <map to='#4e79a7'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[diff:sum:sales:qk]&quot;</bucket>
-            </map>
-            <map to='#4e79a7'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[pcto:sum:sales:qk]&quot;</bucket>
-            </map>
-            <map to='#4e79a7'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[sum:Calculation_832603002593853453:qk]&quot;</bucket>
-            </map>
-            <map to='#4e79a7'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[sum:sales:qk]&quot;</bucket>
-            </map>
-            <map to='#76b7b2'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:CY Transations (copy)_235031627473256455:qk]&quot;</bucket>
-            </map>
-            <map to='#adadad'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[sum:CM Sales (copy)_832603002913419292:qk]&quot;</bucket>
-            </map>
-            <map to='#adadad'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:CM AOV (copy)_832603002924900388:qk]&quot;</bucket>
-            </map>
-            <map to='#adadad'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:CM Transations (copy)_832603002927546408:qk]&quot;</bucket>
-            </map>
-            <map to='#cfa075'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Min/Max Sales (copy)_235031627479339017:qk]&quot;</bucket>
-            </map>
-            <map to='#e15759'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[sum:sales:qk]:1&quot;</bucket>
-            </map>
-            <map to='#e15759'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Min/Max Sales (copy)_235031627470831621:qk]&quot;</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Calculation1:qk:3]&quot;</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Calculation1:qk:5]&quot;</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Calculation1:qk]&quot;</bucket>
-            </map>
-          </encoding>
         </style-rule>
       </style>
       <semantic-values>
@@ -1143,20 +1156,6 @@
       </object-graph>
     </datasource>
   </datasources>
-  <shared-views>
-    <shared-view name='federated.0wnfrk604a3eu617rswz10jre75k'>
-      <datasources>
-        <datasource caption='Coffee Sales DataSource' name='federated.0wnfrk604a3eu617rswz10jre75k' />
-      </datasources>
-      <datasource-dependencies datasource='federated.0wnfrk604a3eu617rswz10jre75k'>
-        <column caption='Coffee Name' datatype='string' name='[coffee_name]' role='dimension' type='nominal' />
-        <column-instance column='[coffee_name]' derivation='None' name='[none:coffee_name:nk]' pivot='key' type='nominal' />
-      </datasource-dependencies>
-      <filter class='categorical' column='[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]'>
-        <groupfilter function='level-members' level='[none:coffee_name:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
-      </filter>
-    </shared-view>
-  </shared-views>
   <actions>
     <action caption='Filter 1 (generated)' name='[Action1_0509192581FF4C2AA699BCC86B25C05E]'>
       <activation auto-clear='true' type='on-select' />
@@ -1202,10 +1201,8 @@
             <column caption='Transactions' datatype='integer' default-format='n#,##0;-#,##0' name='[PM Transations (copy)_832603002928128041]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='COUNT([datetimes])' />
             </column>
-            <column caption='Coffee Name' datatype='string' name='[coffee_name]' role='dimension' type='nominal' />
             <column caption='Datetimes' datatype='datetime' name='[datetimes]' role='dimension' type='ordinal' />
             <column caption='Hour Of Day' datatype='integer' name='[hour_of_day]' role='dimension' type='quantitative' />
-            <column-instance column='[coffee_name]' derivation='None' name='[none:coffee_name:nk]' pivot='key' type='nominal' />
             <column-instance column='[hour_of_day]' derivation='None' name='[none:hour_of_day:qk]' pivot='key' type='quantitative' />
             <column-instance column='[time_of_day]' derivation='None' name='[none:time_of_day:nk]' pivot='key' type='nominal' />
             <column caption='Sales' datatype='real' default-format='n&quot;R&quot;#,##0,K;-&quot;R&quot;#,##0,K' name='[sales]' role='measure' type='quantitative' />
@@ -1222,7 +1219,6 @@
           </filter>
           <slices>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[twk:datetimes:ok]</column>
-            <column>[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -1390,11 +1386,9 @@
                 <table-calc ordering-type='Rows' />
               </calculation>
             </column>
-            <column caption='Coffee Name' datatype='string' name='[coffee_name]' role='dimension' type='nominal' />
             <column caption='Datetimes' datatype='datetime' name='[datetimes]' role='dimension' type='ordinal' />
             <column-instance column='[datetimes]' derivation='Day' name='[dy:datetimes:ok]' pivot='key' type='ordinal' />
             <column-instance column='[datetimes]' derivation='Day' name='[dy:datetimes:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[coffee_name]' derivation='None' name='[none:coffee_name:nk]' pivot='key' type='nominal' />
             <column caption='Sales' datatype='real' default-format='n&quot;R&quot;#,##0,K;-&quot;R&quot;#,##0,K' name='[sales]' role='measure' type='quantitative' />
             <column-instance column='[CM AOV (copy)_832603002924900388]' derivation='User' name='[usr:CM AOV (copy)_832603002924900388:qk]' pivot='key' type='quantitative' />
             <column-instance column='[CM Sales (copy)_832603002922270755]' derivation='User' name='[usr:CM Sales (copy)_832603002922270755:qk]' pivot='key' type='quantitative' />
@@ -1414,7 +1408,6 @@
           <slices>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[:Measure Names]</column>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[Action (DAY(Datetimes))]</column>
-            <column>[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -1590,10 +1583,8 @@
             <column caption='MoM Sales Change ' datatype='real' default-format='*▲ 0.0%; ▼ -0.0%;' name='[MoM % Change (copy)_832603002925445157]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='(SUM([Calculation_832603002905485337])-SUM([CM Sales (copy)_832603002913419292]))/(SUM([CM Sales (copy)_832603002913419292]))' />
             </column>
-            <column caption='Coffee Name' datatype='string' name='[coffee_name]' role='dimension' type='nominal' />
             <column caption='Datetimes' datatype='datetime' name='[datetimes]' role='dimension' type='ordinal' />
             <column-instance column='[datetimes]' derivation='Day' name='[dy:datetimes:ok]' pivot='key' type='ordinal' />
-            <column-instance column='[coffee_name]' derivation='None' name='[none:coffee_name:nk]' pivot='key' type='nominal' />
             <column caption='Sales' datatype='real' default-format='n&quot;R&quot;#,##0,K;-&quot;R&quot;#,##0,K' name='[sales]' role='measure' type='quantitative' />
             <column-instance column='[Calculation_832603002905485337]' derivation='Sum' name='[sum:Calculation_832603002905485337:qk]' pivot='key' type='quantitative' />
             <column-instance column='[CM Sales (copy)_832603002922270755]' derivation='User' name='[usr:CM Sales (copy)_832603002922270755:qk]' pivot='key' type='quantitative' />
@@ -1607,7 +1598,6 @@
           </filter>
           <slices>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[Action (DAY(Datetimes))]</column>
-            <column>[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -1675,10 +1665,8 @@
             <column caption='MoM Sales Change ' datatype='real' default-format='*▲ 0.0%; ▼ -0.0%;' name='[MoM % Change (copy)_832603002925445157]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='(SUM([Calculation_832603002905485337])-SUM([CM Sales (copy)_832603002913419292]))/(SUM([CM Sales (copy)_832603002913419292]))' />
             </column>
-            <column caption='Coffee Name' datatype='string' name='[coffee_name]' role='dimension' type='nominal' />
             <column caption='Datetimes' datatype='datetime' name='[datetimes]' role='dimension' type='ordinal' />
             <column-instance column='[datetimes]' derivation='Day' name='[dy:datetimes:ok]' pivot='key' type='ordinal' />
-            <column-instance column='[coffee_name]' derivation='None' name='[none:coffee_name:nk]' pivot='key' type='nominal' />
             <column caption='Sales' datatype='real' default-format='n&quot;R&quot;#,##0,K;-&quot;R&quot;#,##0,K' name='[sales]' role='measure' type='quantitative' />
             <column-instance column='[Calculation_832603002905485337]' derivation='Sum' name='[sum:Calculation_832603002905485337:qk]' pivot='key' type='quantitative' />
             <column-instance column='[MoM % Change (copy)_832603002925445157]' derivation='User' name='[usr:MoM % Change (copy)_832603002925445157:qk]' pivot='key' type='quantitative' />
@@ -1688,7 +1676,6 @@
           </filter>
           <slices>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[Action (DAY(Datetimes))]</column>
-            <column>[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -1743,11 +1730,9 @@
                 <table-calc ordering-type='Rows' />
               </calculation>
             </column>
-            <column caption='Coffee Name' datatype='string' name='[coffee_name]' role='dimension' type='nominal' />
             <column caption='Datetimes' datatype='datetime' name='[datetimes]' role='dimension' type='ordinal' />
             <column-instance column='[datetimes]' derivation='Day' name='[dy:datetimes:ok]' pivot='key' type='ordinal' />
             <column-instance column='[datetimes]' derivation='Day' name='[dy:datetimes:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[coffee_name]' derivation='None' name='[none:coffee_name:nk]' pivot='key' type='nominal' />
             <column caption='Sales' datatype='real' default-format='n&quot;R&quot;#,##0,K;-&quot;R&quot;#,##0,K' name='[sales]' role='measure' type='quantitative' />
             <column-instance column='[CM Sales (copy)_832603002913419292]' derivation='Sum' name='[sum:CM Sales (copy)_832603002913419292:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_832603002905485337]' derivation='Sum' name='[sum:Calculation_832603002905485337:qk]' pivot='key' type='quantitative' />
@@ -1767,7 +1752,6 @@
           <slices>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[:Measure Names]</column>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[Action (DAY(Datetimes))]</column>
-            <column>[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -1944,10 +1928,8 @@
             <column caption='MoM % Transactions (copy 2)' datatype='real' default-format='p0.00%' name='[MoM % Transactions (copy 2)_235031627627323402]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='(&#13;&#10;([Calculation_832603002927087655]) - ([CM Transations (copy)_832603002927546408])&#13;&#10;/&#13;&#10;([CM Transations (copy)_832603002927546408])&#13;&#10;)' />
             </column>
-            <column caption='Coffee Name' datatype='string' name='[coffee_name]' role='dimension' type='nominal' />
             <column caption='Datetimes' datatype='datetime' name='[datetimes]' role='dimension' type='ordinal' />
             <column-instance column='[datetimes]' derivation='Day' name='[dy:datetimes:ok]' pivot='key' type='ordinal' />
-            <column-instance column='[coffee_name]' derivation='None' name='[none:coffee_name:nk]' pivot='key' type='nominal' />
             <column-instance column='[Calculation_832603002927087655]' derivation='User' name='[usr:Calculation_832603002927087655:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_832603002934366252]' derivation='User' name='[usr:Calculation_832603002934366252:qk:2]' pivot='key' type='quantitative'>
               <table-calc ordering-type='Rows' />
@@ -1959,7 +1941,6 @@
           </filter>
           <slices>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[Action (DAY(Datetimes))]</column>
-            <column>[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -2015,11 +1996,9 @@
                 <table-calc ordering-type='Rows' />
               </calculation>
             </column>
-            <column caption='Coffee Name' datatype='string' name='[coffee_name]' role='dimension' type='nominal' />
             <column caption='Datetimes' datatype='datetime' name='[datetimes]' role='dimension' type='ordinal' />
             <column-instance column='[datetimes]' derivation='Day' name='[dy:datetimes:ok]' pivot='key' type='ordinal' />
             <column-instance column='[datetimes]' derivation='Day' name='[dy:datetimes:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[coffee_name]' derivation='None' name='[none:coffee_name:nk]' pivot='key' type='nominal' />
             <column-instance column='[CM Transations (copy)_832603002927546408]' derivation='User' name='[usr:CM Transations (copy)_832603002927546408:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_832603002927087655]' derivation='User' name='[usr:Calculation_832603002927087655:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Min/Max AOV (copy)_235031627473702920]' derivation='User' name='[usr:Min/Max AOV (copy)_235031627473702920:qk]' pivot='key' type='quantitative'>
@@ -2038,7 +2017,6 @@
           <slices>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[:Measure Names]</column>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[Action (DAY(Datetimes))]</column>
-            <column>[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -2169,12 +2147,10 @@
               <calculation class='tableau' formula='1' />
             </column>
             <column caption='Cash Type' datatype='string' name='[cash_type]' role='dimension' type='nominal' />
-            <column caption='Coffee Name' datatype='string' name='[coffee_name]' role='dimension' type='nominal' />
             <column caption='Datetimes' datatype='datetime' name='[datetimes]' role='dimension' type='ordinal' />
             <column-instance column='[datetimes]' derivation='Day' name='[dy:datetimes:ok]' pivot='key' type='ordinal' />
             <column-instance column='[Calculation_832603002543497226]' derivation='None' name='[none:Calculation_832603002543497226:qk]' pivot='key' type='quantitative' />
             <column-instance column='[cash_type]' derivation='None' name='[none:cash_type:nk]' pivot='key' type='nominal' />
-            <column-instance column='[coffee_name]' derivation='None' name='[none:coffee_name:nk]' pivot='key' type='nominal' />
             <column-instance column='[sales]' derivation='Sum' name='[pcto:sum:sales:qk]' pivot='key' type='quantitative'>
               <table-calc ordering-type='Columns' type='PctTotal' />
             </column-instance>
@@ -2187,7 +2163,6 @@
           </filter>
           <slices>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[Action (DAY(Datetimes))]</column>
-            <column>[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -2381,10 +2356,8 @@
                 <table-calc ordering-type='Rows' />
               </calculation>
             </column>
-            <column caption='Coffee Name' datatype='string' name='[coffee_name]' role='dimension' type='nominal' />
             <column caption='Datetimes' datatype='datetime' name='[datetimes]' role='dimension' type='ordinal' />
             <column-instance column='[datetimes]' derivation='Max' name='[max:datetimes:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[coffee_name]' derivation='None' name='[none:coffee_name:nk]' pivot='key' type='nominal' />
             <column-instance column='[datetimes]' derivation='None' name='[none:datetimes:qk]' pivot='key' type='quantitative' />
             <column caption='Sales' datatype='real' default-format='n&quot;R&quot;#,##0,K;-&quot;R&quot;#,##0,K' name='[sales]' role='measure' type='quantitative' />
             <column-instance column='[sales]' derivation='Sum' name='[sum:sales:qk]' pivot='key' type='quantitative' />
@@ -2403,7 +2376,6 @@
           <filter class='quantitative' column='[federated.0wnfrk604a3eu617rswz10jre75k].[none:datetimes:qk]' included-values='in-range' />
           <slices>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[none:datetimes:qk]</column>
-            <column>[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -2624,6 +2596,63 @@
       </table>
       <simple-id uuid='{71294E07-81B6-4A3F-A22E-8E59642EC36A}' />
     </worksheet>
+    <worksheet name='Sheet 15'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{ECED7FCE-CC0C-4D84-BAFD-18E2614DDC15}' />
+    </worksheet>
+    <worksheet name='Sheet 28'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Coffee Sales DataSource' name='federated.0wnfrk604a3eu617rswz10jre75k' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wnfrk604a3eu617rswz10jre75k'>
+            <column caption='Transactions' datatype='integer' default-format='n#,##0;-#,##0' name='[PM Transations (copy)_832603002928128041]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([datetimes])' />
+            </column>
+            <column caption='Datetimes' datatype='datetime' name='[datetimes]' role='dimension' type='ordinal' />
+            <column-instance column='[datetimes]' derivation='Month-Trunc' name='[tmn:datetimes:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PM Transations (copy)_832603002928128041]' derivation='User' name='[usr:PM Transations (copy)_832603002928128041:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0wnfrk604a3eu617rswz10jre75k].[usr:PM Transations (copy)_832603002928128041:qk]</rows>
+        <cols>[federated.0wnfrk604a3eu617rswz10jre75k].[tmn:datetimes:qk]</cols>
+      </table>
+      <simple-id uuid='{EAC49646-4FEF-4DFF-8DA8-37151107AB76}' />
+    </worksheet>
     <worksheet name='Testing Min/Max'>
       <table>
         <view>
@@ -2671,10 +2700,8 @@
                 <table-calc ordering-type='Rows' />
               </calculation>
             </column>
-            <column caption='Coffee Name' datatype='string' name='[coffee_name]' role='dimension' type='nominal' />
             <column caption='Datetimes' datatype='datetime' name='[datetimes]' role='dimension' type='ordinal' />
             <column-instance column='[Calculation_832603002901245975]' derivation='None' name='[none:Calculation_832603002901245975:ok]' pivot='key' type='ordinal' />
-            <column-instance column='[coffee_name]' derivation='None' name='[none:coffee_name:nk]' pivot='key' type='nominal' />
             <column caption='Sales' datatype='real' default-format='n&quot;R&quot;#,##0,K;-&quot;R&quot;#,##0,K' name='[sales]' role='measure' type='quantitative' />
             <column-instance column='[Calculation_832603002877792276]' derivation='Sum' name='[sum:Calculation_832603002877792276:qk]' pivot='key' type='quantitative' />
             <column-instance column='[CM AOV (copy)_235031627469778945]' derivation='User' name='[usr:CM AOV (copy)_235031627469778945:qk]' pivot='key' type='quantitative' />
@@ -2705,7 +2732,6 @@
           </manual-sort>
           <slices>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[:Measure Names]</column>
-            <column>[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -2786,10 +2812,8 @@
                 <table-calc ordering-type='Rows' />
               </calculation>
             </column>
-            <column caption='Coffee Name' datatype='string' name='[coffee_name]' role='dimension' type='nominal' />
             <column caption='Datetimes' datatype='datetime' name='[datetimes]' role='dimension' type='ordinal' />
             <column-instance column='[datetimes]' derivation='Day' name='[dy:datetimes:ok]' pivot='key' type='ordinal' />
-            <column-instance column='[coffee_name]' derivation='None' name='[none:coffee_name:nk]' pivot='key' type='nominal' />
             <column caption='Sales' datatype='real' default-format='n&quot;R&quot;#,##0,K;-&quot;R&quot;#,##0,K' name='[sales]' role='measure' type='quantitative' />
             <column-instance column='[Calculation_832603002877792276]' derivation='Sum' name='[sum:Calculation_832603002877792276:qk]' pivot='key' type='quantitative' />
             <column-instance column='[CM AOV (copy)_235031627469778945]' derivation='User' name='[usr:CM AOV (copy)_235031627469778945:qk]' pivot='key' type='quantitative' />
@@ -2824,7 +2848,6 @@
           </manual-sort>
           <slices>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[:Measure Names]</column>
-            <column>[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -2904,11 +2927,9 @@
             <column caption='Transactions' datatype='integer' default-format='n#,##0;-#,##0' name='[PM Transations (copy)_832603002928128041]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='COUNT([datetimes])' />
             </column>
-            <column caption='Coffee Name' datatype='string' name='[coffee_name]' role='dimension' type='nominal' />
             <column caption='Datetimes' datatype='datetime' name='[datetimes]' role='dimension' type='ordinal' />
             <column-instance column='[Calculation_832603002875412499]' derivation='None' name='[none:Calculation_832603002875412499:ok]' pivot='key' type='ordinal' />
             <column-instance column='[Calculation_832603002901245975]' derivation='None' name='[none:Calculation_832603002901245975:ok]' pivot='key' type='ordinal' />
-            <column-instance column='[coffee_name]' derivation='None' name='[none:coffee_name:nk]' pivot='key' type='nominal' />
             <column caption='Sales' datatype='real' default-format='n&quot;R&quot;#,##0,K;-&quot;R&quot;#,##0,K' name='[sales]' role='measure' type='quantitative' />
             <column-instance column='[CM Sales (copy)_832603002913419292]' derivation='Sum' name='[sum:CM Sales (copy)_832603002913419292:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_832603002905485337]' derivation='Sum' name='[sum:Calculation_832603002905485337:qk]' pivot='key' type='quantitative' />
@@ -2954,7 +2975,6 @@
           </manual-sort>
           <slices>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[:Measure Names]</column>
-            <column>[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -3066,10 +3086,8 @@
             <column caption='YoY Sales Change' datatype='real' default-format='p0.00%' name='[Calculation_832603002900156438]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='(SUM([Calculation_832603002877792276]) - SUM([Calculation_832603002893647893])) / (SUM([Calculation_832603002893647893]))' />
             </column>
-            <column caption='Coffee Name' datatype='string' name='[coffee_name]' role='dimension' type='nominal' />
             <column caption='Datetimes' datatype='datetime' name='[datetimes]' role='dimension' type='ordinal' />
             <column-instance column='[Calculation_832603002875412499]' derivation='None' name='[none:Calculation_832603002875412499:ok]' pivot='key' type='ordinal' />
-            <column-instance column='[coffee_name]' derivation='None' name='[none:coffee_name:nk]' pivot='key' type='nominal' />
             <column caption='Sales' datatype='real' default-format='n&quot;R&quot;#,##0,K;-&quot;R&quot;#,##0,K' name='[sales]' role='measure' type='quantitative' />
             <column-instance column='[Calculation_832603002877792276]' derivation='Sum' name='[sum:Calculation_832603002877792276:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_832603002893647893]' derivation='Sum' name='[sum:Calculation_832603002893647893:qk]' pivot='key' type='quantitative' />
@@ -3086,7 +3104,6 @@
           </filter>
           <slices>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[:Measure Names]</column>
-            <column>[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -3164,12 +3181,10 @@
                 <table-calc ordering-type='Rows' />
               </calculation>
             </column>
-            <column caption='Coffee Name' datatype='string' name='[coffee_name]' role='dimension' type='nominal' />
             <column caption='Datetimes' datatype='datetime' name='[datetimes]' role='dimension' type='ordinal' />
             <column-instance column='[datetimes]' derivation='Day' name='[dy:datetimes:ok]' pivot='key' type='ordinal' />
             <column-instance column='[Calculation_832603002490732550]' derivation='None' name='[none:Calculation_832603002490732550:ok]' pivot='key' type='ordinal' />
             <column-instance column='[Calculation_832603002490732550]' derivation='None' name='[none:Calculation_832603002490732550:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[coffee_name]' derivation='None' name='[none:coffee_name:nk]' pivot='key' type='nominal' />
             <column caption='Sales' datatype='real' default-format='n&quot;R&quot;#,##0,K;-&quot;R&quot;#,##0,K' name='[sales]' role='measure' type='quantitative' />
             <column-instance column='[Calculation_832603002488246277]' derivation='User' name='[usr:Calculation_832603002488246277:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_832603002524377096]' derivation='User' name='[usr:Calculation_832603002524377096:nk]' pivot='key' type='nominal'>
@@ -3191,7 +3206,6 @@
           <slices>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[none:Calculation_832603002490732550:ok]</column>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[Action (DAY(Datetimes))]</column>
-            <column>[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -3296,9 +3310,7 @@
             <column caption='Transactions' datatype='integer' default-format='n#,##0;-#,##0' name='[PM Transations (copy)_832603002928128041]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='COUNT([datetimes])' />
             </column>
-            <column caption='Coffee Name' datatype='string' name='[coffee_name]' role='dimension' type='nominal' />
             <column caption='Datetimes' datatype='datetime' name='[datetimes]' role='dimension' type='ordinal' />
-            <column-instance column='[coffee_name]' derivation='None' name='[none:coffee_name:nk]' pivot='key' type='nominal' />
             <column-instance column='[time_of_day]' derivation='None' name='[none:time_of_day:nk]' pivot='key' type='nominal' />
             <column caption='Sales' datatype='real' default-format='n&quot;R&quot;#,##0,K;-&quot;R&quot;#,##0,K' name='[sales]' role='measure' type='quantitative' />
             <column-instance column='[sales]' derivation='Sum' name='[sum:sales:qk]' pivot='key' type='quantitative' />
@@ -3321,19 +3333,18 @@
           <slices>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[twk:datetimes:ok]</column>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[:Measure Names]</column>
-            <column>[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
         <style>
           <style-rule element='axis'>
-            <format attr='display' class='0' field='[federated.0wnfrk604a3eu617rswz10jre75k].[Multiple Values]' scope='rows' value='false' />
             <format attr='stroke-size' scope='cols' value='0' />
             <format attr='line-visibility' scope='cols' value='off' />
             <format attr='tick-color' scope='cols' value='#00000000' />
             <format attr='tick-color' scope='rows' value='#00000000' />
             <format attr='stroke-size' scope='rows' value='0' />
             <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='display' class='0' field='[federated.0wnfrk604a3eu617rswz10jre75k].[Multiple Values]' scope='rows' value='false' />
           </style-rule>
           <style-rule element='cell'>
             <format attr='width' field='[federated.0wnfrk604a3eu617rswz10jre75k].[:Measure Names]' value='73' />
@@ -3379,11 +3390,6 @@
             <format attr='stroke-size' value='0' />
             <format attr='line-visibility' value='off' />
           </style-rule>
-          <style-rule element='quick-filter-title'>
-            <format attr='font-size' value='10' />
-            <format attr='font-weight' value='bold' />
-            <format attr='color' value='#ffffca' />
-          </style-rule>
         </style>
         <panes>
           <pane id='6' selection-relaxation-option='selection-relaxation-allow'>
@@ -3403,10 +3409,10 @@
               </style-rule>
               <style-rule element='mark'>
                 <format attr='size' value='0.74662983417510986' />
-                <format attr='mark-labels-show' value='true' />
-                <format attr='mark-labels-cull' value='true' />
                 <format attr='mark-markers-mode' value='auto' />
                 <format attr='mark-color' value='#341102' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
               </style-rule>
               <style-rule element='pane'>
                 <format attr='minwidth' value='-1' />
@@ -3435,9 +3441,7 @@
             <datasource caption='Coffee Sales DataSource' name='federated.0wnfrk604a3eu617rswz10jre75k' />
           </datasources>
           <datasource-dependencies datasource='federated.0wnfrk604a3eu617rswz10jre75k'>
-            <column caption='Coffee Name' datatype='string' name='[coffee_name]' role='dimension' type='nominal' />
             <column caption='Datetimes' datatype='datetime' name='[datetimes]' role='dimension' type='ordinal' />
-            <column-instance column='[coffee_name]' derivation='None' name='[none:coffee_name:nk]' pivot='key' type='nominal' />
             <column-instance column='[time_of_day]' derivation='None' name='[none:time_of_day:nk]' pivot='key' type='nominal' />
             <column-instance column='[weekdays]' derivation='None' name='[none:weekdays:nk]' pivot='key' type='nominal' />
             <column caption='Sales' datatype='real' default-format='n&quot;R&quot;#,##0,K;-&quot;R&quot;#,##0,K' name='[sales]' role='measure' type='quantitative' />
@@ -3461,7 +3465,6 @@
           </filter>
           <slices>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[twk:datetimes:ok]</column>
-            <column>[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -3628,7 +3631,6 @@
           <slices>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Calculation_358599138959036417:nk:4]</column>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[Action (DAY(Datetimes))]</column>
-            <column>[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -3667,11 +3669,6 @@
               </formatted-text>
             </format>
           </style-rule>
-          <_.fcp.IndividualControlFormatting.true...style-rule element='quick-filter-title'>
-            <_.fcp.IndividualControlFormatting.true...format attr='color' field='[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]' value='#ffffca' />
-            <_.fcp.IndividualControlFormatting.true...format attr='font-weight' field='[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]' value='bold' />
-            <_.fcp.IndividualControlFormatting.true...format attr='font-size' field='[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]' value='10' />
-          </_.fcp.IndividualControlFormatting.true...style-rule>
         </style>
         <panes>
           <pane selection-relaxation-option='selection-relaxation-allow'>
@@ -3745,7 +3742,6 @@
           </filter>
           <slices>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[twk:datetimes:ok]</column>
-            <column>[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -3827,6 +3823,116 @@
       </table>
       <simple-id uuid='{C483F88A-E6BA-40FE-A8FD-137947A47ADD}' />
     </worksheet>
+    <worksheet name='monthly sales forecast'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#664728' fontname='Tableau Medium'>weekly sales trends</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Coffee Sales DataSource' name='federated.0wnfrk604a3eu617rswz10jre75k' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wnfrk604a3eu617rswz10jre75k'>
+            <column caption='Dates' datatype='date' name='[dates]' role='dimension' type='ordinal' />
+            <column caption='Datetimes' datatype='datetime' name='[datetimes]' role='dimension' type='ordinal' />
+            <column-instance column='[sales]' derivation='Sum' forecast-column-base='[sum:sales:qk]' forecast-column-type='forecast-value' name='[fVal:sum:sales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+            <column caption='Sales' datatype='real' default-format='n&quot;R&quot;#,##0,K;-&quot;R&quot;#,##0,K' name='[sales]' role='measure' type='quantitative' />
+            <column-instance column='[sales]' derivation='Sum' name='[sum:sales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[dates]' derivation='Month-Trunc' name='[tmn:dates:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[datetimes]' derivation='Week-Trunc' name='[twk:datetimes:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0wnfrk604a3eu617rswz10jre75k].[twk:datetimes:ok]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[twk:datetimes:ok]' />
+              <groupfilter function='member' level='[twk:datetimes:ok]' member='#2025-03-23 00:00:00#' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0wnfrk604a3eu617rswz10jre75k].[twk:datetimes:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='tick-color' scope='cols' value='#00000000' />
+            <format attr='tick-color' scope='rows' value='#00000000' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='text-format' id='refline0' value='n&quot;R&quot;#,##0,K;-&quot;R&quot;#,##0,K' />
+            <format attr='line-visibility' id='refline0' value='on' />
+            <format attr='line-pattern-only' id='refline0' value='dashed' />
+            <format attr='background-color' id='refline0' value='#ffffff7f' />
+            <format attr='stroke-color' id='refline0' value='#6647285d' />
+            <format attr='fill-above' id='refline1' value='#00000000' />
+            <format attr='fill-below' id='refline1' value='#00000000' />
+            <format attr='text-format' id='refline1' value='n&quot;R&quot;#,##0,K;-&quot;R&quot;#,##0,K' />
+            <format attr='line-visibility' id='refline1' value='on' />
+            <format attr='line-pattern-only' id='refline1' value='dashed' />
+            <format attr='background-color' id='refline1' value='#ffffff7f' />
+            <format attr='stroke-color' id='refline1' value='#6647285d' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0wnfrk604a3eu617rswz10jre75k].[none:Forecast Indicator:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.74662983417510986' />
+                <format attr='mark-markers-mode' value='auto' />
+                <format attr='mark-color' value='#341102' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='selection' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0wnfrk604a3eu617rswz10jre75k].[fVal:sum:sales:qk]</rows>
+        <cols>[federated.0wnfrk604a3eu617rswz10jre75k].[tmn:dates:qk]</cols>
+        <forecast-specification auto-forecast-agg='true' band-confidence-level='90.000000' enabled='true' fill-type='fill-zero' ignore-last='1' model-type='custom' range-periods='Month-Trunc' range-size='8' range-type='next' season-type='ets-none' show-prediction-bands='true' trend-type='ets-multiplicative' />
+      </table>
+      <simple-id uuid='{CC8E244A-CD4B-4981-91DC-2CCCDD5A2F63}' />
+    </worksheet>
     <worksheet name='time of day coffee type distribution (2)'>
       <layout-options>
         <title>
@@ -3864,20 +3970,19 @@
           </filter>
           <slices>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[twk:datetimes:ok]</column>
-            <column>[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
         <style>
           <style-rule element='axis'>
-            <encoding attr='space' class='0' domain-expand='false' field='[federated.0wnfrk604a3eu617rswz10jre75k].[sum:sales:qk]' field-type='quantitative' major-origin='0.0' major-spacing='10000.0' scope='rows' type='space' />
-            <format attr='title' class='0' field='[federated.0wnfrk604a3eu617rswz10jre75k].[sum:sales:qk]' scope='rows' value='' />
             <format attr='stroke-size' scope='cols' value='0' />
             <format attr='line-visibility' scope='cols' value='off' />
             <format attr='tick-color' scope='cols' value='#00000000' />
             <format attr='tick-color' scope='rows' value='#00000000' />
             <format attr='stroke-size' scope='rows' value='0' />
             <format attr='line-visibility' scope='rows' value='off' />
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.0wnfrk604a3eu617rswz10jre75k].[sum:sales:qk]' field-type='quantitative' major-origin='0.0' major-spacing='10000.0' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.0wnfrk604a3eu617rswz10jre75k].[sum:sales:qk]' scope='rows' value='' />
           </style-rule>
           <style-rule element='header'>
             <format attr='border-width' data-class='total' value='0' />
@@ -3926,11 +4031,6 @@
                 <run bold='true' fontcolor='#cfa075' fontsize='12'>Coffee Type</run>
               </formatted-text>
             </format>
-          </style-rule>
-          <style-rule element='quick-filter-title'>
-            <format attr='font-size' value='10' />
-            <format attr='font-weight' value='bold' />
-            <format attr='color' value='#ffffca' />
           </style-rule>
         </style>
         <panes>
@@ -3994,7 +4094,6 @@
           </filter>
           <slices>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[twk:datetimes:ok]</column>
-            <column>[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -4096,9 +4195,7 @@
                 <table-calc ordering-type='Rows' />
               </calculation>
             </column>
-            <column caption='Coffee Name' datatype='string' name='[coffee_name]' role='dimension' type='nominal' />
             <column caption='Datetimes' datatype='datetime' name='[datetimes]' role='dimension' type='ordinal' />
-            <column-instance column='[coffee_name]' derivation='None' name='[none:coffee_name:nk]' pivot='key' type='nominal' />
             <column caption='Sales' datatype='real' default-format='n&quot;R&quot;#,##0,K;-&quot;R&quot;#,##0,K' name='[sales]' role='measure' type='quantitative' />
             <column-instance column='[sales]' derivation='Sum' name='[sum:sales:qk]' pivot='key' type='quantitative' />
             <column-instance column='[datetimes]' derivation='Week-Trunc' name='[twk:datetimes:ok]' pivot='key' type='ordinal' />
@@ -4115,7 +4212,6 @@
           </filter>
           <slices>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[twk:datetimes:ok]</column>
-            <column>[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -4199,6 +4295,142 @@
       </table>
       <simple-id uuid='{D09A1840-7E1A-4A0D-9A70-CDA2BF5C7AF9}' />
     </worksheet>
+    <worksheet name='weekly_done (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#664728' fontname='Tableau Medium'>weekly sales trends</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Coffee Sales DataSource' name='federated.0wnfrk604a3eu617rswz10jre75k' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column caption='Select Year' datatype='integer' default-format='n0;-0' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='2024'>
+              <calculation class='tableau' formula='2024' />
+            </column>
+            <column caption='Select Month' datatype='integer' datatype-customized='true' name='[Parameter 3]' param-domain-type='list' role='measure' type='quantitative' value='4'>
+              <calculation class='tableau' formula='4' />
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.0wnfrk604a3eu617rswz10jre75k'>
+            <column caption='PM Sales' datatype='real' default-format='n&quot;R&quot;#,##0,.00K;-&quot;R&quot;#,##0,.00K' name='[CM Sales (copy)_832603002913419292]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='// Total sales for the selected year and  previous month&#13;&#10;&#13;&#10;IF [Calculation_832603002875412499] = [Parameters].[Parameter 1] &#13;&#10;AND &#13;&#10;[Calculation_832603002901245975] = [Parameters].[Parameter 3] -1&#13;&#10;THEN [sales]&#13;&#10;END' />
+            </column>
+            <column caption='Year(Datetimes)' datatype='integer' name='[Calculation_832603002875412499]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='YEAR([datetimes])' />
+            </column>
+            <column caption='Month(Datetime)' datatype='integer' name='[Calculation_832603002901245975]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='DATEPART(&apos;month&apos;, [datetimes])' />
+            </column>
+            <column caption='CM Sales' datatype='real' default-format='n&quot;R&quot;#,##0,.00K;-&quot;R&quot;#,##0,.00K' name='[Calculation_832603002905485337]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='// Total sales for the selected year and month&#13;&#10;&#13;&#10;IF [Calculation_832603002875412499] = [Parameters].[Parameter 1] &#13;&#10;AND &#13;&#10;[Calculation_832603002901245975] = [Parameters].[Parameter 3]&#13;&#10;THEN [sales]&#13;&#10;END' />
+            </column>
+            <column caption='MoM Sales Change ' datatype='real' default-format='*▲ 0.0%; ▼ -0.0%;' name='[MoM % Change (copy)_832603002925445157]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(SUM([Calculation_832603002905485337])-SUM([CM Sales (copy)_832603002913419292]))/(SUM([CM Sales (copy)_832603002913419292]))' />
+            </column>
+            <column caption='MoM % Sales Change' datatype='real' default-format='p0.00%' name='[MoM Sales Change  (copy)_675821441942831105]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(&#13;&#10;&#13;&#10;&#13;&#10;SUM([sales]) - LOOKUP(SUM([sales]), -1)/&#13;&#10;LOOKUP(SUM([sales]), -1)&#13;&#10;)'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Datetimes' datatype='datetime' name='[datetimes]' role='dimension' type='ordinal' />
+            <column caption='Sales' datatype='real' default-format='n&quot;R&quot;#,##0,K;-&quot;R&quot;#,##0,K' name='[sales]' role='measure' type='quantitative' />
+            <column-instance column='[datetimes]' derivation='Week-Trunc' name='[twk:datetimes:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[datetimes]' derivation='Week-Trunc' name='[twk:datetimes:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MoM % Change (copy)_832603002925445157]' derivation='User' name='[usr:MoM % Change (copy)_832603002925445157:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MoM Sales Change  (copy)_675821441942831105]' derivation='User' name='[usr:MoM Sales Change  (copy)_675821441942831105:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0wnfrk604a3eu617rswz10jre75k].[twk:datetimes:ok]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[twk:datetimes:ok]' />
+              <groupfilter function='member' level='[twk:datetimes:ok]' member='#2025-03-23 00:00:00#' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0wnfrk604a3eu617rswz10jre75k].[twk:datetimes:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='tick-color' scope='cols' value='#00000000' />
+            <format attr='tick-color' scope='rows' value='#00000000' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='text-format' id='refline0' value='n&quot;R&quot;#,##0,K;-&quot;R&quot;#,##0,K' />
+            <format attr='line-visibility' id='refline0' value='on' />
+            <format attr='line-pattern-only' id='refline0' value='dashed' />
+            <format attr='background-color' id='refline0' value='#ffffff7f' />
+            <format attr='stroke-color' id='refline0' value='#6647285d' />
+            <format attr='fill-above' id='refline1' value='#00000000' />
+            <format attr='fill-below' id='refline1' value='#00000000' />
+            <format attr='text-format' id='refline1' value='n&quot;R&quot;#,##0,K;-&quot;R&quot;#,##0,K' />
+            <format attr='line-visibility' id='refline1' value='on' />
+            <format attr='line-pattern-only' id='refline1' value='dashed' />
+            <format attr='background-color' id='refline1' value='#ffffff7f' />
+            <format attr='stroke-color' id='refline1' value='#6647285d' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='15' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0wnfrk604a3eu617rswz10jre75k].[usr:MoM Sales Change  (copy)_675821441942831105:qk]' />
+              <tooltip column='[federated.0wnfrk604a3eu617rswz10jre75k].[usr:MoM % Change (copy)_832603002925445157:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.74662983417510986' />
+                <format attr='mark-markers-mode' value='auto' />
+                <format attr='mark-color' value='#341102' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0wnfrk604a3eu617rswz10jre75k].[usr:MoM Sales Change  (copy)_675821441942831105:qk]</rows>
+        <cols>[federated.0wnfrk604a3eu617rswz10jre75k].[twk:datetimes:qk]</cols>
+      </table>
+      <simple-id uuid='{05C5211B-5FCA-4E26-BD50-52D564BDD0B8}' />
+    </worksheet>
     <worksheet name='yearly coffee type distribution (3)'>
       <layout-options>
         <title>
@@ -4241,7 +4473,6 @@
           </filter>
           <slices>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[twk:datetimes:ok]</column>
-            <column>[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -4250,13 +4481,13 @@
             <encoding attr='space' class='0' field='[federated.0wnfrk604a3eu617rswz10jre75k].[sum:sales:qk]' field-type='quantitative' major-origin='0.0' major-spacing='40000.0' scope='rows' type='space' />
             <format attr='title' class='0' field='[federated.0wnfrk604a3eu617rswz10jre75k].[none:Calculation_832603002875412499:qk]' scope='cols' value='' />
             <encoding attr='space' class='0' field='[federated.0wnfrk604a3eu617rswz10jre75k].[none:Calculation_832603002875412499:qk]' field-type='quantitative' max='2026' min='2023' range-type='fixed' scope='cols' type='space' />
-            <format attr='title' class='0' field='[federated.0wnfrk604a3eu617rswz10jre75k].[sum:sales:qk]' scope='rows' value='' />
             <format attr='stroke-size' scope='cols' value='0' />
             <format attr='line-visibility' scope='cols' value='off' />
             <format attr='tick-color' scope='cols' value='#00000000' />
             <format attr='tick-color' scope='rows' value='#00000000' />
             <format attr='stroke-size' scope='rows' value='0' />
             <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='title' class='0' field='[federated.0wnfrk604a3eu617rswz10jre75k].[sum:sales:qk]' scope='rows' value='' />
           </style-rule>
           <style-rule element='header'>
             <format attr='border-width' data-class='total' value='0' />
@@ -4301,11 +4532,6 @@
           <style-rule element='zeroline'>
             <format attr='stroke-size' value='0' />
             <format attr='line-visibility' value='off' />
-          </style-rule>
-          <style-rule element='quick-filter-title'>
-            <format attr='font-size' value='10' />
-            <format attr='font-weight' value='bold' />
-            <format attr='color' value='#ffffca' />
           </style-rule>
         </style>
         <panes>
@@ -4372,7 +4598,6 @@
           </shelf-sorts>
           <slices>
             <column>[federated.0wnfrk604a3eu617rswz10jre75k].[:Measure Names]</column>
-            <column>[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -4401,6 +4626,140 @@
     </worksheet>
   </worksheets>
   <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Executive Summary'>
+      <style />
+      <size maxheight='860' maxwidth='900' minheight='560' minwidth='600' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97302' id='3' param='vert' type-v2='layout-flow' w='98222' x='889' y='1349'>
+            <zone fixed-size='10' h='1686' id='5' is-fixed='true' param='horz' type-v2='layout-flow' w='98222' x='889' y='1349'>
+              <zone forceUpdate='true' h='1686' id='11' type-v2='text' w='92666' x='889' y='1349'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone fixed-size='42' h='1686' id='42' is-fixed='true' type-v2='dashboard-object' w='5556' x='93555' y='1349'>
+                <button action='' button-click-action-metadata='image'>
+                  <export-button-action>tabdoc:abstract-dashboard-button-export-wrapper dashboard-button-export-type=&quot;image&quot; dashboarddoc-id=&quot;{830E7B08-06EF-438A-9576-B12D950C88EE}&quot;</export-button-action>
+                  <button-visual-state>
+                    <format attr='background-color' value='#ffffff' />
+                  </button-visual-state>
+                </button>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone forceUpdate='true' h='9781' id='8' type-v2='text' w='98222' x='889' y='3035'>
+              <formatted-text>
+                <run fontname='Tableau Medium' fontsize='18'>Sales Revenue (March 2024 - March 2025)</run>
+                <run>
+Sales Momentum Strengthened Despite Volatility, Peaking Sales at</run>
+                <run fontcolor='#cfa075'> +R6.9K MoM </run>
+                <run>Above </run>
+                <run fontcolor='#cfa075'>R9K Baseline</run>
+              </formatted-text>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='85835' id='9' name='Sales Revenue' show-title='false' w='98222' x='889' y='12816'>
+              <layout-cache minheight='130' minwidth='100' type-h='scalable' type-w='scalable' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='52' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='51' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone forceUpdate='true' h='1686' id='11' type-v2='text' w='92666' x='889' y='1349'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='42' h='1686' id='42' type-v2='dashboard-object' w='5556' x='93555' y='1349'>
+                  <button action='' button-click-action-metadata='image'>
+                    <export-button-action>tabdoc:abstract-dashboard-button-export-wrapper dashboard-button-export-type=&quot;image&quot; dashboarddoc-id=&quot;{830E7B08-06EF-438A-9576-B12D950C88EE}&quot;</export-button-action>
+                    <button-visual-state>
+                      <format attr='background-color' value='#ffffff' />
+                    </button-visual-state>
+                  </button>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='9781' id='8' type-v2='text' w='98222' x='889' y='3035'>
+                  <formatted-text>
+                    <run fontname='Tableau Medium' fontsize='18'>Sales Revenue (March 2024 - March 2025)</run>
+                    <run>
+Sales Momentum Strengthened Despite Volatility, Peaking Sales at</run>
+                    <run fontcolor='#cfa075'> +R6.9K MoM </run>
+                    <run>Above </run>
+                    <run fontcolor='#cfa075'>R9K Baseline</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='85835' id='9' is-fixed='true' name='Sales Revenue' show-title='false' w='98222' x='889' y='12816'>
+                  <layout-cache minheight='130' minwidth='100' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{830E7B08-06EF-438A-9576-B12D950C88EE}' />
+    </dashboard>
     <dashboard enable-sort-zone-taborder='true' name='Product Comparison Dashboard'>
       <style>
         <style-rule element='parameter-ctrl'>
@@ -4436,7 +4795,6 @@
       <size maxheight='900' maxwidth='1400' minheight='900' minwidth='1400' sizing-mode='fixed' />
       <datasources>
         <datasource name='Parameters' />
-        <datasource caption='Coffee Sales DataSource' name='federated.0wnfrk604a3eu617rswz10jre75k' />
       </datasources>
       <datasource-dependencies datasource='Parameters'>
         <column caption='Select Year' datatype='integer' default-format='n0;-0' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='2024'>
@@ -4463,10 +4821,6 @@
             <member value='12' />
           </members>
         </column>
-      </datasource-dependencies>
-      <datasource-dependencies datasource='federated.0wnfrk604a3eu617rswz10jre75k'>
-        <column caption='Coffee Name' datatype='string' name='[coffee_name]' role='dimension' type='nominal' />
-        <column-instance column='[coffee_name]' derivation='None' name='[none:coffee_name:nk]' pivot='key' type='nominal' />
       </datasource-dependencies>
       <zones>
         <zone h='100000' id='17' type-v2='layout-basic' w='100000' x='0' y='0'>
@@ -4539,7 +4893,7 @@
                     </zone-style>
                   </zone>
                   <zone h='8889' id='409' type-v2='dashboard-object' w='6215' x='93071' y='1667'>
-                    <button action=''>
+                    <button action='' active-visual-state-index='1'>
                       <toggle-action>tabdoc:toggle-button-click-action window-id=&quot;{318660E9-1943-4CC8-B344-41B118B328B5}&quot; zone-id=&quot;409&quot; zone-ids=[405]</toggle-action>
                       <button-visual-state>
                         <image-path>Image/Filter - Shown.png</image-path>
@@ -4641,7 +4995,7 @@
                   </zone-style>
                 </zone>
                 <zone h='40610' id='436' name='weekly coffee type distribution ' w='50576' x='48709' y='54499'>
-                  <layout-cache cell-count-w='7' minheight='163' non-cell-size-w='30' type-h='scalable' type-w='cell' />
+                  <layout-cache minheight='163' type-h='scalable' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -4690,8 +5044,8 @@
             <format attr='background-color' value='#cfa07537' />
           </zone-style>
         </zone>
-        <zone h='53556' id='405' param='vert' type-v2='layout-flow' w='29357' x='69929' y='10444'>
-          <zone forceUpdate='true' h='3333' id='408' type-v2='text' w='29357' x='69929' y='10444'>
+        <zone h='53556' hidden-by-user='true' id='405' param='vert' type-v2='layout-flow' w='29357' x='69929' y='10444'>
+          <zone forceUpdate='true' h='3333' hidden-by-user='true' id='408' type-v2='text' w='29357' x='69929' y='10444'>
             <formatted-text>
               <run fontalignment='1' fontcolor='#ffffff' fontname='Tableau Medium' fontsize='12'>F I L T E R S</run>
             </formatted-text>
@@ -4705,7 +5059,7 @@
               <format attr='background-color' value='#ffffca3c' />
             </zone-style>
           </zone>
-          <zone fixed-size='12' h='2222' id='412' is-fixed='true' type-v2='empty' w='29357' x='69929' y='13777'>
+          <zone fixed-size='12' h='2222' hidden-by-user='true' id='412' is-fixed='true' type-v2='empty' w='29357' x='69929' y='13777'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -4713,7 +5067,7 @@
               <format attr='margin' value='4' />
             </zone-style>
           </zone>
-          <zone h='6926' id='410' mode='compact' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='29357' x='69929' y='15999'>
+          <zone h='8555' hidden-by-user='true' id='410' mode='compact' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='29357' x='69929' y='15999'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -4722,7 +5076,7 @@
               <format attr='background-color' value='#664728' />
             </zone-style>
           </zone>
-          <zone h='6926' id='411' mode='compact' param='[Parameters].[Parameter 3]' type-v2='paramctrl' w='29357' x='69929' y='22925'>
+          <zone h='7444' hidden-by-user='true' id='411' mode='compact' param='[Parameters].[Parameter 3]' type-v2='paramctrl' w='29357' x='69929' y='24554'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -4732,7 +5086,7 @@
               <format attr='background-color' value='#664728' />
             </zone-style>
           </zone>
-          <zone fixed-size='12' h='2222' id='413' is-fixed='true' type-v2='empty' w='29357' x='69929' y='29851'>
+          <zone fixed-size='12' h='2222' hidden-by-user='true' id='413' is-fixed='true' type-v2='empty' w='29357' x='69929' y='31998'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -4740,7 +5094,7 @@
               <format attr='margin' value='4' />
             </zone-style>
           </zone>
-          <zone forceUpdate='true' h='2778' id='460' type-v2='text' w='29357' x='69929' y='32073'>
+          <zone forceUpdate='true' h='2778' hidden-by-user='true' id='460' type-v2='text' w='29357' x='69929' y='34220'>
             <formatted-text>
               <run bold='true' fontalignment='1' fontcolor='#ffffca'>- P R O D U C T - </run>
             </formatted-text>
@@ -4754,15 +5108,7 @@
               <format attr='background-color' value='#ffffca1b' />
             </zone-style>
           </zone>
-          <zone h='6926' id='510' mode='checkdropdown' name='time of day coffee type distribution (2)' param='[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]' type-v2='filter' values='database' w='29357' x='69929' y='34851'>
-            <zone-style>
-              <format attr='border-color' value='#000000' />
-              <format attr='border-style' value='none' />
-              <format attr='border-width' value='0' />
-              <format attr='margin' value='15' />
-            </zone-style>
-          </zone>
-          <zone fixed-size='12' h='2222' id='461' is-fixed='true' type-v2='empty' w='29357' x='69929' y='41777'>
+          <zone fixed-size='12' h='2222' hidden-by-user='true' id='461' is-fixed='true' type-v2='empty' w='29357' x='69929' y='36998'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -4770,7 +5116,7 @@
               <format attr='margin' value='4' />
             </zone-style>
           </zone>
-          <zone forceUpdate='true' h='3333' id='462' type-v2='text' w='29357' x='69929' y='43999'>
+          <zone forceUpdate='true' h='3333' hidden-by-user='true' id='462' type-v2='text' w='29357' x='69929' y='39220'>
             <formatted-text>
               <run fontalignment='1' fontcolor='#ffffff' fontname='Tableau Medium' fontsize='12'>- E X P O R T    A S - </run>
             </formatted-text>
@@ -4781,11 +5127,11 @@
               <format attr='margin' value='4' />
               <format attr='margin-right' value='10' />
               <format attr='margin-left' value='10' />
-              <format attr='background-color' value='#ffffca1b' />
+              <format attr='background-color' value='#ffffca3c' />
             </zone-style>
           </zone>
-          <zone fixed-size='50' h='5556' id='469' is-fixed='true' param='horz' type-v2='layout-flow' w='29357' x='69929' y='47332'>
-            <zone fixed-size='147' h='5556' id='474' is-fixed='true' type-v2='empty' w='11071' x='69929' y='47332'>
+          <zone fixed-size='50' h='5556' hidden-by-user='true' id='469' is-fixed='true' param='horz' type-v2='layout-flow' w='29357' x='69929' y='42553'>
+            <zone fixed-size='147' h='5556' hidden-by-user='true' id='474' is-fixed='true' type-v2='empty' w='11071' x='69929' y='42553'>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -4793,7 +5139,7 @@
                 <format attr='margin' value='4' />
               </zone-style>
             </zone>
-            <zone h='5556' id='486' type-v2='dashboard-object' w='3571' x='81000' y='47332'>
+            <zone h='5556' hidden-by-user='true' id='486' type-v2='dashboard-object' w='3571' x='81000' y='42553'>
               <button action='' button-click-action-metadata='pdf'>
                 <export-button-action>tabdoc:abstract-dashboard-button-export-wrapper dashboard-button-export-type=&quot;pdf&quot; dashboarddoc-id=&quot;{C214FE59-AB66-4372-A260-703521268EC5}&quot;</export-button-action>
                 <button-visual-state>
@@ -4807,7 +5153,7 @@
                 <format attr='margin' value='4' />
               </zone-style>
             </zone>
-            <zone h='5556' id='487' type-v2='dashboard-object' w='3571' x='84571' y='47332'>
+            <zone h='5556' hidden-by-user='true' id='487' type-v2='dashboard-object' w='3571' x='84571' y='42553'>
               <button action='' button-click-action-metadata='image'>
                 <export-button-action>tabdoc:abstract-dashboard-button-export-wrapper dashboard-button-export-type=&quot;image&quot; dashboarddoc-id=&quot;{C214FE59-AB66-4372-A260-703521268EC5}&quot;</export-button-action>
                 <button-visual-state>
@@ -4822,7 +5168,7 @@
                 <format attr='margin' value='4' />
               </zone-style>
             </zone>
-            <zone fixed-size='147' h='5556' id='475' is-fixed='true' type-v2='empty' w='11071' x='88142' y='47332'>
+            <zone fixed-size='147' h='5556' hidden-by-user='true' id='475' is-fixed='true' type-v2='empty' w='11071' x='88142' y='42553'>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -4831,7 +5177,7 @@
               </zone-style>
             </zone>
           </zone>
-          <zone fixed-size='12' h='2222' id='463' is-fixed='true' type-v2='empty' w='29357' x='69929' y='52888'>
+          <zone fixed-size='12' h='2222' hidden-by-user='true' id='463' is-fixed='true' type-v2='empty' w='29357' x='69929' y='48109'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -4839,7 +5185,7 @@
               <format attr='margin' value='4' />
             </zone-style>
           </zone>
-          <zone forceUpdate='true' h='3333' id='464' type-v2='text' w='29357' x='69929' y='55110'>
+          <zone forceUpdate='true' h='3333' hidden-by-user='true' id='464' type-v2='text' w='29357' x='69929' y='50331'>
             <formatted-text>
               <run fontalignment='1' fontcolor='#ffffff' fontname='Tableau Medium' fontsize='12'>- S O C I A L S - </run>
             </formatted-text>
@@ -4850,11 +5196,11 @@
               <format attr='margin' value='4' />
               <format attr='margin-right' value='10' />
               <format attr='margin-left' value='10' />
-              <format attr='background-color' value='#ffffca1b' />
+              <format attr='background-color' value='#ffffca3c' />
             </zone-style>
           </zone>
-          <zone fixed-size='50' h='5557' id='476' is-fixed='true' param='horz' type-v2='layout-flow' w='29357' x='69929' y='58443'>
-            <zone fixed-size='112' h='5557' id='478' is-fixed='true' type-v2='empty' w='8571' x='69929' y='58443'>
+          <zone fixed-size='50' h='5556' hidden-by-user='true' id='476' is-fixed='true' param='horz' type-v2='layout-flow' w='29357' x='69929' y='53664'>
+            <zone fixed-size='112' h='5556' hidden-by-user='true' id='478' is-fixed='true' type-v2='empty' w='8571' x='69929' y='53664'>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -4862,7 +5208,7 @@
                 <format attr='margin' value='4' />
               </zone-style>
             </zone>
-            <zone alt-text='Linkedin' h='5557' id='479' is-scaled='1' param='Image/Icon - Socials(LinkedIn).png' type-v2='bitmap' w='4071' x='78500' y='58443'>
+            <zone alt-text='Linkedin' h='5556' hidden-by-user='true' id='479' is-scaled='1' param='Image/Icon - Socials(LinkedIn).png' type-v2='bitmap' w='3571' x='78500' y='53664'>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -4870,7 +5216,7 @@
                 <format attr='margin' value='4' />
               </zone-style>
             </zone>
-            <zone alt-text='Github' h='5557' id='480' is-scaled='1' param='Image/Icon - Socials(Github).png' type-v2='bitmap' w='4071' x='82571' y='58443'>
+            <zone alt-text='Github' h='5556' hidden-by-user='true' id='480' is-scaled='1' param='Image/Icon - Socials(Github).png' type-v2='bitmap' w='3571' x='82071' y='53664'>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -4878,7 +5224,7 @@
                 <format attr='margin' value='4' />
               </zone-style>
             </zone>
-            <zone alt-text='Go to Tableau' h='5557' id='481' is-scaled='1' param='Image/Icon -Tableau.png' type-v2='bitmap' w='4071' x='86642' y='58443'>
+            <zone alt-text='Tableau' h='5556' hidden-by-user='true' id='481' is-scaled='1' type-v2='bitmap' w='5073' x='85642' y='53664'>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -4886,7 +5232,7 @@
                 <format attr='margin' value='4' />
               </zone-style>
             </zone>
-            <zone fixed-size='112' h='5557' id='477' is-fixed='true' type-v2='empty' w='8571' x='90713' y='58443'>
+            <zone fixed-size='112' h='5556' hidden-by-user='true' id='477' is-fixed='true' type-v2='empty' w='8571' x='90715' y='53664'>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -4902,13 +5248,19 @@
             <format attr='background-color' value='#664728' />
           </zone-style>
         </zone>
+        <zone h='3444' id='490' type-v2='dashboard-object' w='857' x='97786' y='53889'>
+          <button action='' button-click-action-metadata='image'>
+            <export-button-action>tabdoc:abstract-dashboard-button-export-wrapper dashboard-button-export-type=&quot;image&quot; dashboarddoc-id=&quot;{C214FE59-AB66-4372-A260-703521268EC5}&quot;</export-button-action>
+            <button-visual-state />
+          </button>
+        </zone>
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2500' minheight='2500' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='512' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98222' id='511' param='vert' type-v2='layout-flow' w='98858' x='571' y='889'>
+            <zone h='100000' id='496' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='495' param='vert' type-v2='layout-flow' w='98858' x='571' y='889'>
                 <zone fixed-size='72' h='8889' id='389' is-fixed='true' is-scaled='1' param='Image/dailygrind_logo.png' type-v2='bitmap' w='7143' x='3709' y='1667'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -4976,7 +5328,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone forceUpdate='true' h='3333' id='408' type-v2='text' w='29357' x='69929' y='10444'>
+                <zone forceUpdate='true' h='3333' hidden-by-user='true' id='408' type-v2='text' w='29357' x='69929' y='10444'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#ffffff' fontname='Tableau Medium' fontsize='12'>F I L T E R S</run>
                   </formatted-text>
@@ -5018,7 +5370,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='6926' id='410' mode='compact' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='29357' x='69929' y='15999'>
+                <zone h='8555' hidden-by-user='true' id='410' mode='compact' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='29357' x='69929' y='15999'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -5028,7 +5380,7 @@
                     <format attr='background-color' value='#664728' />
                   </zone-style>
                 </zone>
-                <zone h='6926' id='411' mode='compact' param='[Parameters].[Parameter 3]' type-v2='paramctrl' w='29357' x='69929' y='22925'>
+                <zone h='7444' hidden-by-user='true' id='411' mode='compact' param='[Parameters].[Parameter 3]' type-v2='paramctrl' w='29357' x='69929' y='24554'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -5038,7 +5390,7 @@
                     <format attr='background-color' value='#664728' />
                   </zone-style>
                 </zone>
-                <zone forceUpdate='true' h='2778' id='460' type-v2='text' w='29357' x='69929' y='32073'>
+                <zone forceUpdate='true' h='2778' hidden-by-user='true' id='460' type-v2='text' w='29357' x='69929' y='34220'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#ffffca'>- P R O D U C T - </run>
                   </formatted-text>
@@ -5051,7 +5403,7 @@
                     <format attr='background-color' value='#ffffca1b' />
                   </zone-style>
                 </zone>
-                <zone forceUpdate='true' h='3333' id='462' type-v2='text' w='29357' x='69929' y='43999'>
+                <zone forceUpdate='true' h='3333' hidden-by-user='true' id='462' type-v2='text' w='29357' x='69929' y='39220'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#ffffff' fontname='Tableau Medium' fontsize='12'>- E X P O R T    A S - </run>
                   </formatted-text>
@@ -5061,10 +5413,10 @@
                     <format attr='border-width' value='0' />
                     <format attr='margin' value='4' />
                     <format attr='padding' value='0' />
-                    <format attr='background-color' value='#ffffca1b' />
+                    <format attr='background-color' value='#ffffca3c' />
                   </zone-style>
                 </zone>
-                <zone h='5556' id='486' type-v2='dashboard-object' w='3571' x='81000' y='47332'>
+                <zone h='5556' hidden-by-user='true' id='486' type-v2='dashboard-object' w='3571' x='81000' y='42553'>
                   <button action='' button-click-action-metadata='pdf'>
                     <export-button-action>tabdoc:abstract-dashboard-button-export-wrapper dashboard-button-export-type=&quot;pdf&quot; dashboarddoc-id=&quot;{C214FE59-AB66-4372-A260-703521268EC5}&quot;</export-button-action>
                     <button-visual-state>
@@ -5079,7 +5431,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='5556' id='487' type-v2='dashboard-object' w='3571' x='84571' y='47332'>
+                <zone h='5556' hidden-by-user='true' id='487' type-v2='dashboard-object' w='3571' x='84571' y='42553'>
                   <button action='' button-click-action-metadata='image'>
                     <export-button-action>tabdoc:abstract-dashboard-button-export-wrapper dashboard-button-export-type=&quot;image&quot; dashboarddoc-id=&quot;{C214FE59-AB66-4372-A260-703521268EC5}&quot;</export-button-action>
                     <button-visual-state>
@@ -5095,7 +5447,51 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='6926' id='510' mode='checkdropdown' name='time of day coffee type distribution (2)' param='[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]' type-v2='filter' values='database' w='29357' x='69929' y='34851'>
+                <zone forceUpdate='true' h='3333' hidden-by-user='true' id='464' type-v2='text' w='29357' x='69929' y='50331'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#ffffff' fontname='Tableau Medium' fontsize='12'>- S O C I A L S - </run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffca3c' />
+                  </zone-style>
+                </zone>
+                <zone alt-text='Linkedin' fixed-size='42' h='5556' hidden-by-user='true' id='479' is-fixed='true' is-scaled='1' param='Image/Icon - Socials(LinkedIn).png' type-v2='bitmap' w='3571' x='78500' y='53664'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone alt-text='Github' fixed-size='42' h='5556' hidden-by-user='true' id='480' is-fixed='true' is-scaled='1' param='Image/Icon - Socials(Github).png' type-v2='bitmap' w='3571' x='82071' y='53664'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone alt-text='Tableau' fixed-size='42' h='5556' hidden-by-user='true' id='481' is-fixed='true' is-scaled='1' type-v2='bitmap' w='5073' x='85642' y='53664'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='3444' id='490' type-v2='dashboard-object' w='857' x='97786' y='53889'>
+                  <button action='' button-click-action-metadata='image'>
+                    <export-button-action>tabdoc:abstract-dashboard-button-export-wrapper dashboard-button-export-type=&quot;image&quot; dashboarddoc-id=&quot;{C214FE59-AB66-4372-A260-703521268EC5}&quot;</export-button-action>
+                    <button-visual-state />
+                  </button>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -5126,7 +5522,7 @@
                   </zone-style>
                 </zone>
                 <zone fixed-size='280' h='40610' id='436' is-fixed='true' name='weekly coffee type distribution ' w='50576' x='48709' y='54499'>
-                  <layout-cache cell-count-w='7' minheight='163' non-cell-size-w='30' type-h='scalable' type-w='cell' />
+                  <layout-cache minheight='163' type-h='scalable' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -5134,46 +5530,6 @@
                     <format attr='margin' value='4' />
                     <format attr='padding' value='0' />
                     <format attr='background-color' value='#ffffff' />
-                  </zone-style>
-                </zone>
-                <zone forceUpdate='true' h='3333' id='464' type-v2='text' w='29357' x='69929' y='55110'>
-                  <formatted-text>
-                    <run fontalignment='1' fontcolor='#ffffff' fontname='Tableau Medium' fontsize='12'>- S O C I A L S - </run>
-                  </formatted-text>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                    <format attr='background-color' value='#ffffca1b' />
-                  </zone-style>
-                </zone>
-                <zone alt-text='Linkedin' fixed-size='42' h='5557' id='479' is-fixed='true' is-scaled='1' param='Image/Icon - Socials(LinkedIn).png' type-v2='bitmap' w='4071' x='78500' y='58443'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone alt-text='Github' fixed-size='42' h='5557' id='480' is-fixed='true' is-scaled='1' param='Image/Icon - Socials(Github).png' type-v2='bitmap' w='4071' x='82571' y='58443'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone alt-text='Go to Tableau' fixed-size='42' h='5557' id='481' is-fixed='true' is-scaled='1' param='Image/Icon -Tableau.png' type-v2='bitmap' w='4071' x='86642' y='58443'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
                 <zone forceUpdate='true' h='2889' id='372' type-v2='text' w='95577' x='3709' y='95109'>
@@ -5238,7 +5594,6 @@
       <size maxheight='900' maxwidth='1400' minheight='900' minwidth='1400' sizing-mode='fixed' />
       <datasources>
         <datasource name='Parameters' />
-        <datasource caption='Coffee Sales DataSource' name='federated.0wnfrk604a3eu617rswz10jre75k' />
       </datasources>
       <datasource-dependencies datasource='Parameters'>
         <column caption='Select Year' datatype='integer' default-format='n0;-0' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='2024'>
@@ -5278,10 +5633,6 @@
           </members>
         </column>
       </datasource-dependencies>
-      <datasource-dependencies datasource='federated.0wnfrk604a3eu617rswz10jre75k'>
-        <column caption='Coffee Name' datatype='string' name='[coffee_name]' role='dimension' type='nominal' />
-        <column-instance column='[coffee_name]' derivation='None' name='[none:coffee_name:nk]' pivot='key' type='nominal' />
-      </datasource-dependencies>
       <zones>
         <zone h='100000' id='17' type-v2='layout-basic' w='100000' x='0' y='0'>
           <zone friendly-name='Vertical Cont.(Main)' h='97778' id='16' param='horz' type-v2='layout-flow' w='95648' x='3638' y='1111'>
@@ -5297,7 +5648,7 @@
                     </zone-style>
                   </zone>
                 </zone>
-                <zone fixed-size='892' forceUpdate='true' h='8889' id='392' is-fixed='true' type-v2='text' w='63434' x='10852' y='1667'>
+                <zone fixed-size='860' forceUpdate='true' h='8889' id='392' is-fixed='true' type-v2='text' w='62000' x='10852' y='1667'>
                   <formatted-text>
                     <run bold='true' fontcolor='#cfa075' fontname='Tableau Semibold' fontsize='24'>DAILYGRIND SALES DASHBOARD| </run>
                     <run bold='true' fontcolor='#664728' fontname='Tableau Semibold' fontsize='24'>&lt;[Parameters].[Parameter 1]&gt;</run>
@@ -5309,8 +5660,8 @@
                     <format attr='margin' value='4' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='350' h='8889' id='388' is-fixed='true' layout-strategy-id='distribute-evenly' param='horz' type-v2='layout-flow' w='25000' x='74286' y='1667'>
-                  <zone fixed-size='42' h='8889' id='396' is-fixed='true' type-v2='dashboard-object' w='6285' x='74286' y='1667'>
+                <zone fixed-size='350' h='8889' id='388' is-fixed='true' layout-strategy-id='distribute-evenly' param='horz' type-v2='layout-flow' w='25000' x='72852' y='1667'>
+                  <zone fixed-size='42' h='8889' id='396' is-fixed='true' type-v2='dashboard-object' w='6286' x='72857' y='1667'>
                     <button action='tabdoc:goto-sheet window-id=&quot;{500C7056-AF80-429D-A771-3DEACA955F57}&quot;'>
                       <button-visual-state>
                         <image-path>Image/Nav - Home(Active).png</image-path>
@@ -5324,7 +5675,7 @@
                       <format attr='margin' value='4' />
                     </zone-style>
                   </zone>
-                  <zone h='8889' id='401' type-v2='dashboard-object' w='6286' x='80571' y='1667'>
+                  <zone h='8889' id='401' type-v2='dashboard-object' w='6286' x='79143' y='1667'>
                     <button action='tabdoc:goto-sheet window-id=&quot;{318660E9-1943-4CC8-B344-41B118B328B5}&quot;'>
                       <button-visual-state>
                         <image-path>Image/Nav - Product Analysis.png</image-path>
@@ -5338,7 +5689,7 @@
                       <format attr='margin' value='4' />
                     </zone-style>
                   </zone>
-                  <zone h='8889' id='394' type-v2='dashboard-object' w='6214' x='86857' y='1667'>
+                  <zone h='8889' id='394' type-v2='dashboard-object' w='6214' x='85429' y='1667'>
                     <button action='tabdoc:goto-sheet window-id=&quot;{8EC42FC8-7C34-4931-BCE5-D82E31C8FFDA}&quot;'>
                       <button-visual-state>
                         <image-path>Image/Nav - Time Granularity.png</image-path>
@@ -5352,8 +5703,8 @@
                       <format attr='margin' value='4' />
                     </zone-style>
                   </zone>
-                  <zone h='8889' id='409' type-v2='dashboard-object' w='6215' x='93071' y='1667'>
-                    <button action=''>
+                  <zone h='8889' id='409' type-v2='dashboard-object' w='6214' x='91643' y='1667'>
+                    <button action='' active-visual-state-index='1'>
                       <toggle-action>tabdoc:toggle-button-click-action window-id=&quot;{500C7056-AF80-429D-A771-3DEACA955F57}&quot; zone-id=&quot;409&quot; zone-ids=[405]</toggle-action>
                       <button-visual-state>
                         <image-path>Image/Filter - Shown.png</image-path>
@@ -5686,7 +6037,7 @@
               </zone>
               <zone h='31995' id='355' layout-strategy-id='distribute-evenly' param='horz' type-v2='layout-flow' w='95577' x='3709' y='64001'>
                 <zone fixed-size='660' h='32000' id='361' is-fixed='true' name='Top N Coffee Type' show-title='false' w='47786' x='3714' y='64000'>
-                  <layout-cache minwidth='240' type-h='cell' type-w='scalable' />
+                  <layout-cache cell-count-h='5' minwidth='240' type-h='cell' type-w='scalable' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -5751,8 +6102,8 @@
             <format attr='background-color' value='#cfa07537' />
           </zone-style>
         </zone>
-        <zone h='53556' id='405' param='vert' type-v2='layout-flow' w='29357' x='69929' y='10444'>
-          <zone forceUpdate='true' h='3333' id='408' type-v2='text' w='29357' x='69929' y='10444'>
+        <zone h='53556' hidden-by-user='true' id='405' param='vert' type-v2='layout-flow' w='29357' x='69929' y='10444'>
+          <zone forceUpdate='true' h='3333' hidden-by-user='true' id='408' type-v2='text' w='29357' x='69929' y='10444'>
             <formatted-text>
               <run fontalignment='1' fontcolor='#ffffff' fontname='Tableau Medium' fontsize='12'>F I L T E R S</run>
             </formatted-text>
@@ -5766,7 +6117,7 @@
               <format attr='background-color' value='#ffffca3c' />
             </zone-style>
           </zone>
-          <zone fixed-size='12' h='2222' id='412' is-fixed='true' type-v2='empty' w='29357' x='69929' y='13777'>
+          <zone fixed-size='12' h='2222' hidden-by-user='true' id='412' is-fixed='true' type-v2='empty' w='29357' x='69929' y='13777'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -5774,7 +6125,7 @@
               <format attr='margin' value='4' />
             </zone-style>
           </zone>
-          <zone h='6889' id='410' mode='compact' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='29357' x='69929' y='15999'>
+          <zone h='8555' hidden-by-user='true' id='410' mode='compact' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='29357' x='69929' y='15999'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -5783,7 +6134,7 @@
               <format attr='background-color' value='#664728' />
             </zone-style>
           </zone>
-          <zone h='6889' id='411' mode='compact' param='[Parameters].[Parameter 3]' type-v2='paramctrl' w='29357' x='69929' y='22888'>
+          <zone h='7444' hidden-by-user='true' id='411' mode='compact' param='[Parameters].[Parameter 3]' type-v2='paramctrl' w='29357' x='69929' y='24554'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -5793,170 +6144,13 @@
               <format attr='background-color' value='#664728' />
             </zone-style>
           </zone>
-          <zone fixed-size='12' h='2222' id='413' is-fixed='true' type-v2='empty' w='29357' x='69929' y='29777'>
+          <zone fixed-size='12' h='2222' hidden-by-user='true' id='413' is-fixed='true' type-v2='empty' w='29357' x='69929' y='31998'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
               <format attr='border-width' value='0' />
               <format attr='margin' value='4' />
             </zone-style>
-          </zone>
-          <zone forceUpdate='true' h='2889' id='476' type-v2='text' w='29357' x='69929' y='31999'>
-            <formatted-text>
-              <run fontalignment='1' fontcolor='#ffffff' fontname='Tableau Medium' fontsize='10'>- P R O D U C T -</run>
-            </formatted-text>
-            <zone-style>
-              <format attr='border-color' value='#000000' />
-              <format attr='border-style' value='none' />
-              <format attr='border-width' value='0' />
-              <format attr='margin' value='4' />
-              <format attr='margin-right' value='80' />
-              <format attr='margin-left' value='80' />
-              <format attr='background-color' value='#ffffca1b' />
-            </zone-style>
-          </zone>
-          <zone h='6889' id='505' mode='checkdropdown' name='Top N Coffee Type' param='[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]' type-v2='filter' values='database' w='29357' x='69929' y='34888'>
-            <zone-style>
-              <format attr='border-color' value='#000000' />
-              <format attr='border-style' value='none' />
-              <format attr='border-width' value='0' />
-              <format attr='margin' value='15' />
-            </zone-style>
-          </zone>
-          <zone fixed-size='12' h='2222' id='483' is-fixed='true' type-v2='empty' w='29357' x='69929' y='41777'>
-            <zone-style>
-              <format attr='border-color' value='#000000' />
-              <format attr='border-style' value='none' />
-              <format attr='border-width' value='0' />
-              <format attr='margin' value='4' />
-            </zone-style>
-          </zone>
-          <zone forceUpdate='true' h='3333' id='485' type-v2='text' w='29357' x='69929' y='43999'>
-            <formatted-text>
-              <run fontalignment='1' fontcolor='#ffffff' fontname='Tableau Medium' fontsize='12'>- E X P O R T    A S - </run>
-            </formatted-text>
-            <zone-style>
-              <format attr='border-color' value='#000000' />
-              <format attr='border-style' value='none' />
-              <format attr='border-width' value='0' />
-              <format attr='margin' value='4' />
-              <format attr='margin-right' value='10' />
-              <format attr='margin-left' value='10' />
-              <format attr='background-color' value='#ffffca1b' />
-            </zone-style>
-          </zone>
-          <zone fixed-size='50' h='5556' id='477' is-fixed='true' param='horz' type-v2='layout-flow' w='29357' x='69929' y='47332'>
-            <zone fixed-size='147' h='5556' id='482' is-fixed='true' type-v2='empty' w='11071' x='69929' y='47332'>
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='4' />
-              </zone-style>
-            </zone>
-            <zone h='5556' id='480' type-v2='dashboard-object' w='3571' x='81000' y='47332'>
-              <button action='' button-click-action-metadata='image'>
-                <export-button-action>tabdoc:abstract-dashboard-button-export-wrapper dashboard-button-export-type=&quot;image&quot; dashboarddoc-id=&quot;{DB3DD7DB-A148-4EC9-BA43-F0B6D41642C4}&quot;</export-button-action>
-                <button-visual-state>
-                  <image-path>Image/Icon - Export As(pdf).png</image-path>
-                  <tooltip-text>Download Dashboard As PDF</tooltip-text>
-                </button-visual-state>
-              </button>
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='4' />
-              </zone-style>
-            </zone>
-            <zone h='5556' id='481' type-v2='dashboard-object' w='3571' x='84571' y='47332'>
-              <button action='' button-click-action-metadata='image'>
-                <export-button-action>tabdoc:abstract-dashboard-button-export-wrapper dashboard-button-export-type=&quot;image&quot; dashboarddoc-id=&quot;{DB3DD7DB-A148-4EC9-BA43-F0B6D41642C4}&quot;</export-button-action>
-                <button-visual-state>
-                  <image-path>Image/Icon - Export As(image).png</image-path>
-                  <tooltip-text>Download Dashboard As PNG</tooltip-text>
-                </button-visual-state>
-              </button>
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='4' />
-              </zone-style>
-            </zone>
-            <zone fixed-size='147' h='5556' id='478' is-fixed='true' type-v2='empty' w='11071' x='88142' y='47332'>
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='4' />
-              </zone-style>
-            </zone>
-          </zone>
-          <zone fixed-size='12' h='2222' id='484' is-fixed='true' type-v2='empty' w='29357' x='69929' y='52888'>
-            <zone-style>
-              <format attr='border-color' value='#000000' />
-              <format attr='border-style' value='none' />
-              <format attr='border-width' value='0' />
-              <format attr='margin' value='4' />
-            </zone-style>
-          </zone>
-          <zone forceUpdate='true' h='3333' id='493' type-v2='text' w='29357' x='69929' y='55110'>
-            <formatted-text>
-              <run fontalignment='1' fontcolor='#ffffff' fontname='Tableau Medium' fontsize='12'>- S O C I A L S - </run>
-              <run>Æ&#10;</run>
-            </formatted-text>
-            <zone-style>
-              <format attr='border-color' value='#000000' />
-              <format attr='border-style' value='none' />
-              <format attr='border-width' value='0' />
-              <format attr='margin' value='4' />
-              <format attr='margin-right' value='10' />
-              <format attr='margin-left' value='10' />
-              <format attr='background-color' value='#ffffca1b' />
-            </zone-style>
-          </zone>
-          <zone fixed-size='50' h='5557' id='487' is-fixed='true' param='horz' type-v2='layout-flow' w='29357' x='69929' y='58443'>
-            <zone fixed-size='112' h='5557' id='489' is-fixed='true' type-v2='empty' w='8571' x='69929' y='58443'>
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='4' />
-              </zone-style>
-            </zone>
-            <zone alt-text='Go to Linkedin' h='5557' id='491' is-scaled='1' param='Image/Icon - Socials(LinkedIn).png' type-v2='bitmap' w='4072' x='78500' y='58443'>
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='4' />
-              </zone-style>
-            </zone>
-            <zone alt-text='To Go Github' fixed-size='49' forceUpdate='true' h='5557' id='492' is-fixed='true' is-scaled='1' param='Image/Icon - Socials(Github).png' type-v2='bitmap' url='https://github.com/mmashoto/mmashoto' w='4071' x='82572' y='58443'>
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='4' />
-              </zone-style>
-            </zone>
-            <zone alt-text='Go To Tableau' h='5557' id='490' is-scaled='1' param='Image/Icon -Tableau.png' type-v2='bitmap' w='4072' x='86643' y='58443'>
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='4' />
-              </zone-style>
-            </zone>
-            <zone fixed-size='112' h='5557' id='488' is-fixed='true' type-v2='empty' w='8571' x='90715' y='58443'>
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='4' />
-              </zone-style>
-            </zone>
           </zone>
           <zone-style>
             <format attr='border-color' value='#000000' />
@@ -5974,10 +6168,10 @@
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='3900' minheight='3900' sizing-mode='vscroll' />
+          <size maxheight='3350' minheight='3350' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='507' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98222' id='506' param='vert' type-v2='layout-flow' w='98858' x='571' y='889'>
+            <zone h='100000' id='471' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='470' param='vert' type-v2='layout-flow' w='98858' x='571' y='889'>
                 <zone fixed-size='72' h='8889' id='389' is-fixed='true' is-scaled='1' param='Image/dailygrind_logo.png' type-v2='bitmap' w='7143' x='3709' y='1667'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5987,7 +6181,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='892' forceUpdate='true' h='8889' id='392' type-v2='text' w='63434' x='10852' y='1667'>
+                <zone fixed-size='860' forceUpdate='true' h='8889' id='392' type-v2='text' w='62000' x='10852' y='1667'>
                   <formatted-text>
                     <run bold='true' fontcolor='#cfa075' fontname='Tableau Semibold' fontsize='24'>DAILYGRIND SALES DASHBOARD| </run>
                     <run bold='true' fontcolor='#664728' fontname='Tableau Semibold' fontsize='24'>&lt;[Parameters].[Parameter 1]&gt;</run>
@@ -6000,7 +6194,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='42' h='8889' id='396' type-v2='dashboard-object' w='6285' x='74286' y='1667'>
+                <zone fixed-size='42' h='8889' id='396' type-v2='dashboard-object' w='6286' x='72857' y='1667'>
                   <button action='tabdoc:goto-sheet window-id=&quot;{500C7056-AF80-429D-A771-3DEACA955F57}&quot;'>
                     <button-visual-state>
                       <image-path>Image/Nav - Home(Active).png</image-path>
@@ -6015,7 +6209,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='8889' id='401' type-v2='dashboard-object' w='6286' x='80571' y='1667'>
+                <zone h='8889' id='401' type-v2='dashboard-object' w='6286' x='79143' y='1667'>
                   <button action='tabdoc:goto-sheet window-id=&quot;{318660E9-1943-4CC8-B344-41B118B328B5}&quot;'>
                     <button-visual-state>
                       <image-path>Image/Nav - Product Analysis.png</image-path>
@@ -6030,7 +6224,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='8889' id='394' type-v2='dashboard-object' w='6214' x='86857' y='1667'>
+                <zone h='8889' id='394' type-v2='dashboard-object' w='6214' x='85429' y='1667'>
                   <button action='tabdoc:goto-sheet window-id=&quot;{8EC42FC8-7C34-4931-BCE5-D82E31C8FFDA}&quot;'>
                     <button-visual-state>
                       <image-path>Image/Nav - Time Granularity.png</image-path>
@@ -6045,7 +6239,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone forceUpdate='true' h='3333' id='408' type-v2='text' w='29357' x='69929' y='10444'>
+                <zone forceUpdate='true' h='3333' hidden-by-user='true' id='408' type-v2='text' w='29357' x='69929' y='10444'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#ffffff' fontname='Tableau Medium' fontsize='12'>F I L T E R S</run>
                   </formatted-text>
@@ -6075,7 +6269,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='6889' id='410' mode='compact' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='29357' x='69929' y='15999'>
+                <zone h='8555' hidden-by-user='true' id='410' mode='compact' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='29357' x='69929' y='15999'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6171,16 +6365,6 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='6889' id='411' mode='compact' param='[Parameters].[Parameter 3]' type-v2='paramctrl' w='29357' x='69929' y='22888'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                    <format attr='background-color' value='#664728' />
-                  </zone-style>
-                </zone>
                 <zone fixed-size='262' h='30000' id='337' is-fixed='true' name='Payment Method.chart' show-title='false' w='22429' x='76143' y='24000'>
                   <layout-cache cell-count-w='1' minheight='100' type-h='scalable' type-w='cell' />
                   <zone-style>
@@ -6189,6 +6373,16 @@
                     <format attr='border-width' value='0' />
                     <format attr='margin' value='4' />
                     <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7444' hidden-by-user='true' id='411' mode='compact' param='[Parameters].[Parameter 3]' type-v2='paramctrl' w='29357' x='69929' y='24554'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#664728' />
                   </zone-style>
                 </zone>
                 <zone fixed-size='212' h='24445' id='351' is-fixed='true' name='KPI Sales.chart' show-title='false' w='22500' x='4429' y='29555'>
@@ -6219,78 +6413,6 @@
                     <format attr='border-width' value='0' />
                     <format attr='margin' value='4' />
                     <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone forceUpdate='true' h='2889' id='476' type-v2='text' w='29357' x='69929' y='31999'>
-                  <formatted-text>
-                    <run fontalignment='1' fontcolor='#ffffff' fontname='Tableau Medium' fontsize='10'>- P R O D U C T -</run>
-                  </formatted-text>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                    <format attr='background-color' value='#ffffca1b' />
-                  </zone-style>
-                </zone>
-                <zone forceUpdate='true' h='3333' id='485' type-v2='text' w='29357' x='69929' y='43999'>
-                  <formatted-text>
-                    <run fontalignment='1' fontcolor='#ffffff' fontname='Tableau Medium' fontsize='12'>- E X P O R T    A S - </run>
-                  </formatted-text>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                    <format attr='background-color' value='#ffffca1b' />
-                  </zone-style>
-                </zone>
-                <zone h='5556' id='480' type-v2='dashboard-object' w='3571' x='81000' y='47332'>
-                  <button action='' button-click-action-metadata='image'>
-                    <export-button-action>tabdoc:abstract-dashboard-button-export-wrapper dashboard-button-export-type=&quot;image&quot; dashboarddoc-id=&quot;{DB3DD7DB-A148-4EC9-BA43-F0B6D41642C4}&quot;</export-button-action>
-                    <button-visual-state>
-                      <image-path>Image/Icon - Export As(pdf).png</image-path>
-                      <tooltip-text>Download Dashboard As PDF</tooltip-text>
-                    </button-visual-state>
-                  </button>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone h='5556' id='481' type-v2='dashboard-object' w='3571' x='84571' y='47332'>
-                  <button action='' button-click-action-metadata='image'>
-                    <export-button-action>tabdoc:abstract-dashboard-button-export-wrapper dashboard-button-export-type=&quot;image&quot; dashboarddoc-id=&quot;{DB3DD7DB-A148-4EC9-BA43-F0B6D41642C4}&quot;</export-button-action>
-                    <button-visual-state>
-                      <image-path>Image/Icon - Export As(image).png</image-path>
-                      <tooltip-text>Download Dashboard As PNG</tooltip-text>
-                    </button-visual-state>
-                  </button>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone forceUpdate='true' h='3333' id='493' type-v2='text' w='29357' x='69929' y='55110'>
-                  <formatted-text>
-                    <run fontalignment='1' fontcolor='#ffffff' fontname='Tableau Medium' fontsize='12'>- S O C I A L S - </run>
-                    <run>Æ&#10;</run>
-                  </formatted-text>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                    <format attr='background-color' value='#ffffca1b' />
                   </zone-style>
                 </zone>
                 <zone fixed-size='592' forceUpdate='true' h='4999' id='52' type-v2='text' w='32787' x='51857' y='56223'>
@@ -6343,33 +6465,6 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone alt-text='Go to Linkedin' fixed-size='42' h='5557' id='491' is-fixed='true' is-scaled='1' param='Image/Icon - Socials(LinkedIn).png' type-v2='bitmap' w='4071' x='78500' y='58443'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone alt-text='To Go Github' fixed-size='42' forceUpdate='true' h='5557' id='492' is-fixed='true' is-scaled='1' param='Image/Icon - Socials(Github).png' type-v2='bitmap' w='4071' x='82571' y='58443'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone alt-text='Go To Tableau' fixed-size='42' h='5557' id='490' is-fixed='true' is-scaled='1' param='Image/Icon -Tableau.png' type-v2='bitmap' w='4071' x='86642' y='58443'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
                 <zone forceUpdate='true' h='2222' id='56' type-v2='text' w='45644' x='4785' y='61222'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -6412,17 +6507,8 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='6889' id='505' mode='checkdropdown' name='Top N Coffee Type' param='[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]' type-v2='filter' values='database' w='29357' x='69929' y='34888'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
                 <zone fixed-size='268' h='32000' id='361' is-fixed='true' name='Top N Coffee Type' show-title='false' w='47786' x='3714' y='64000'>
-                  <layout-cache minwidth='240' type-h='cell' type-w='scalable' />
+                  <layout-cache cell-count-h='5' minwidth='240' type-h='cell' type-w='scalable' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6503,7 +6589,6 @@
       <size maxheight='900' maxwidth='1400' minheight='900' minwidth='1400' sizing-mode='fixed' />
       <datasources>
         <datasource name='Parameters' />
-        <datasource caption='Coffee Sales DataSource' name='federated.0wnfrk604a3eu617rswz10jre75k' />
       </datasources>
       <datasource-dependencies datasource='Parameters'>
         <column caption='Select Year' datatype='integer' default-format='n0;-0' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='2024'>
@@ -6530,10 +6615,6 @@
             <member value='12' />
           </members>
         </column>
-      </datasource-dependencies>
-      <datasource-dependencies datasource='federated.0wnfrk604a3eu617rswz10jre75k'>
-        <column caption='Coffee Name' datatype='string' name='[coffee_name]' role='dimension' type='nominal' />
-        <column-instance column='[coffee_name]' derivation='None' name='[none:coffee_name:nk]' pivot='key' type='nominal' />
       </datasource-dependencies>
       <zones>
         <zone h='100000' id='17' type-v2='layout-basic' w='100000' x='0' y='0'>
@@ -6606,7 +6687,7 @@
                     </zone-style>
                   </zone>
                   <zone h='8889' id='409' type-v2='dashboard-object' w='6215' x='93071' y='1667'>
-                    <button action=''>
+                    <button action='' active-visual-state-index='1'>
                       <toggle-action>tabdoc:toggle-button-click-action window-id=&quot;{8EC42FC8-7C34-4931-BCE5-D82E31C8FFDA}&quot; zone-id=&quot;409&quot; zone-ids=[405]</toggle-action>
                       <button-visual-state>
                         <image-path>Image/Filter - Shown.png</image-path>
@@ -6640,10 +6721,10 @@
                 </zone>
               </zone>
               <zone fixed-size='350' friendly-name='Horizontal Cont.(KPI)' h='38889' id='22' is-fixed='true' param='horz' type-v2='layout-flow' w='95577' x='3709' y='13889'>
-                <zone fixed-size='111' friendly-name='Vertical Cont.(KPI Sales)' h='38889' id='60' is-fixed='true' layout-strategy-id='distribute-evenly' param='vert' type-v2='layout-flow' w='9358' x='3709' y='13889'>
-                  <zone friendly-name='Horizontal Cont.(blank)' h='36667' id='66' param='vert' type-v2='layout-flow' w='7928' x='4429' y='15000'>
-                    <zone fixed-size='110' friendly-name='Horizontal Cont.( KPI Sales&amp; Icon)' h='12222' id='93' is-fixed='true' param='horz' type-v2='layout-flow' w='7214' x='4786' y='15556'>
-                      <zone fixed-size='92' h='9667' id='429' is-fixed='true' name='Time of day/Weekday.chart' pane-specification-id='5' param='[federated.0wnfrk604a3eu617rswz10jre75k].[none:time_of_day:nk]' type-v2='color' w='7214' x='4786' y='15556'>
+                <zone friendly-name='Vertical Cont.(KPI Sales)' h='38889' id='60' layout-strategy-id='distribute-evenly' param='vert' type-v2='layout-flow' w='8572' x='3709' y='13889'>
+                  <zone friendly-name='Horizontal Cont.(blank)' h='36667' id='66' param='vert' type-v2='layout-flow' w='7142' x='4429' y='15000'>
+                    <zone fixed-size='110' friendly-name='Horizontal Cont.( KPI Sales&amp; Icon)' h='12222' id='93' is-fixed='true' param='horz' type-v2='layout-flow' w='6428' x='4786' y='15556'>
+                      <zone fixed-size='92' h='12222' id='429' is-fixed='true' name='Time of day/Weekday.chart' pane-specification-id='5' param='[federated.0wnfrk604a3eu617rswz10jre75k].[none:time_of_day:nk]' type-v2='color' w='6428' x='4786' y='15556'>
                         <zone-style>
                           <format attr='border-color' value='#000000' />
                           <format attr='border-style' value='none' />
@@ -6669,12 +6750,12 @@
                     <format attr='background-color' value='#ffffff' />
                   </zone-style>
                 </zone>
-                <zone friendly-name='Vertical Cont.(KPI Transactions)' h='38889' id='62' layout-strategy-id='distribute-evenly' param='vert' type-v2='layout-flow' w='86219' x='13067' y='13889'>
-                  <zone friendly-name='Horizontal Cont.(blank)' h='36667' id='71' param='horz' type-v2='layout-flow' w='84785' x='13786' y='15000'>
-                    <zone h='36667' id='110' is-fixed='true' type-v2='layout-basic' w='84785' x='13786' y='15000'>
-                      <zone friendly-name='Vertical Cont.(blank)' h='36667' id='116' param='vert' type-v2='layout-flow' w='84785' x='13786' y='15000'>
-                        <zone h='36667' id='430' name='Hour of Day.chart' show-title='false' w='84785' x='13786' y='15000'>
-                          <layout-cache minheight='130' minwidth='137' type-h='scalable' type-w='scalable' />
+                <zone friendly-name='Vertical Cont.(KPI Transactions)' h='38889' id='62' layout-strategy-id='distribute-evenly' param='vert' type-v2='layout-flow' w='87005' x='12281' y='13889'>
+                  <zone friendly-name='Horizontal Cont.(blank)' h='36667' id='71' param='horz' type-v2='layout-flow' w='85571' x='13000' y='15000'>
+                    <zone h='36667' id='110' is-fixed='true' type-v2='layout-basic' w='85571' x='13000' y='15000'>
+                      <zone friendly-name='Vertical Cont.(blank)' h='36667' id='116' param='vert' type-v2='layout-flow' w='85571' x='13000' y='15000'>
+                        <zone h='36667' id='430' name='Hour of Day.chart' w='85571' x='13000' y='15000'>
+                          <layout-cache minheight='172' minwidth='137' type-h='scalable' type-w='scalable' />
                           <zone-style>
                             <format attr='border-color' value='#000000' />
                             <format attr='border-style' value='none' />
@@ -6755,8 +6836,8 @@
             <format attr='background-color' value='#cfa07537' />
           </zone-style>
         </zone>
-        <zone h='53556' id='405' param='vert' type-v2='layout-flow' w='29357' x='69929' y='10444'>
-          <zone forceUpdate='true' h='3333' id='408' type-v2='text' w='29357' x='69929' y='10444'>
+        <zone h='53556' hidden-by-user='true' id='405' param='vert' type-v2='layout-flow' w='29357' x='69929' y='10444'>
+          <zone forceUpdate='true' h='3333' hidden-by-user='true' id='408' type-v2='text' w='29357' x='69929' y='10444'>
             <formatted-text>
               <run fontalignment='1' fontcolor='#ffffff' fontname='Tableau Medium' fontsize='12'>F I L T E R S</run>
             </formatted-text>
@@ -6770,7 +6851,7 @@
               <format attr='background-color' value='#ffffca3c' />
             </zone-style>
           </zone>
-          <zone fixed-size='12' h='2222' id='412' is-fixed='true' type-v2='empty' w='29357' x='69929' y='13777'>
+          <zone fixed-size='12' h='2222' hidden-by-user='true' id='412' is-fixed='true' type-v2='empty' w='29357' x='69929' y='13777'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -6778,7 +6859,7 @@
               <format attr='margin' value='4' />
             </zone-style>
           </zone>
-          <zone h='6889' id='410' mode='compact' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='29357' x='69929' y='15999'>
+          <zone h='8555' hidden-by-user='true' id='410' mode='compact' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='29357' x='69929' y='15999'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -6787,7 +6868,7 @@
               <format attr='background-color' value='#664728' />
             </zone-style>
           </zone>
-          <zone h='6889' id='411' mode='compact' param='[Parameters].[Parameter 3]' type-v2='paramctrl' w='29357' x='69929' y='22888'>
+          <zone h='7444' hidden-by-user='true' id='411' mode='compact' param='[Parameters].[Parameter 3]' type-v2='paramctrl' w='29357' x='69929' y='24554'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -6797,7 +6878,7 @@
               <format attr='background-color' value='#664728' />
             </zone-style>
           </zone>
-          <zone fixed-size='12' h='2222' id='462' is-fixed='true' type-v2='empty' w='29357' x='69929' y='29777'>
+          <zone fixed-size='12' h='2222' hidden-by-user='true' id='462' is-fixed='true' type-v2='empty' w='29357' x='69929' y='31998'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -6805,7 +6886,7 @@
               <format attr='margin' value='4' />
             </zone-style>
           </zone>
-          <zone forceUpdate='true' h='2889' id='463' type-v2='text' w='29357' x='69929' y='31999'>
+          <zone h='2889' hidden-by-user='true' id='463' type-v2='text' w='29357' x='69929' y='34220'>
             <formatted-text>
               <run fontalignment='1' fontcolor='#ffffff' fontname='Tableau Medium' fontsize='10'>- P R O D U C T -</run>
             </formatted-text>
@@ -6816,18 +6897,10 @@
               <format attr='margin' value='4' />
               <format attr='margin-right' value='80' />
               <format attr='margin-left' value='80' />
-              <format attr='background-color' value='#ffffca1b' />
+              <format attr='background-color' value='#ffffca3c' />
             </zone-style>
           </zone>
-          <zone h='6889' id='503' mode='checkdropdown' name='Time of day.Chart' param='[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]' type-v2='filter' values='database' w='29357' x='69929' y='34888'>
-            <zone-style>
-              <format attr='border-color' value='#000000' />
-              <format attr='border-style' value='none' />
-              <format attr='border-width' value='0' />
-              <format attr='margin' value='15' />
-            </zone-style>
-          </zone>
-          <zone fixed-size='12' h='2222' id='464' is-fixed='true' type-v2='empty' w='29357' x='69929' y='41777'>
+          <zone fixed-size='12' h='2222' hidden-by-user='true' id='464' is-fixed='true' type-v2='empty' w='29357' x='69929' y='37109'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -6835,7 +6908,7 @@
               <format attr='margin' value='4' />
             </zone-style>
           </zone>
-          <zone forceUpdate='true' h='3333' id='465' type-v2='text' w='29357' x='69929' y='43999'>
+          <zone forceUpdate='true' h='3333' hidden-by-user='true' id='465' type-v2='text' w='29357' x='69929' y='39331'>
             <formatted-text>
               <run fontalignment='1' fontcolor='#ffffff' fontname='Tableau Medium' fontsize='12'>- E X P O R T    A S - </run>
             </formatted-text>
@@ -6849,8 +6922,8 @@
               <format attr='background-color' value='#ffffca1b' />
             </zone-style>
           </zone>
-          <zone fixed-size='50' h='5556' id='466' is-fixed='true' param='horz' type-v2='layout-flow' w='29357' x='69929' y='47332'>
-            <zone fixed-size='147' h='5556' id='471' is-fixed='true' type-v2='empty' w='11071' x='69929' y='47332'>
+          <zone fixed-size='50' h='5556' hidden-by-user='true' id='466' is-fixed='true' param='horz' type-v2='layout-flow' w='29357' x='69929' y='42664'>
+            <zone h='5556' hidden-by-user='true' id='471' type-v2='empty' w='11107' x='69929' y='42664'>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -6858,7 +6931,7 @@
                 <format attr='margin' value='4' />
               </zone-style>
             </zone>
-            <zone h='5556' id='469' type-v2='dashboard-object' w='3571' x='81000' y='47332'>
+            <zone h='5556' hidden-by-user='true' id='469' type-v2='dashboard-object' w='3571' x='81036' y='42664'>
               <button action='' button-click-action-metadata='pdf'>
                 <export-button-action>tabdoc:abstract-dashboard-button-export-wrapper dashboard-button-export-type=&quot;pdf&quot; dashboarddoc-id=&quot;{E4123718-08E4-4889-935B-8B86EF48E200}&quot;</export-button-action>
                 <button-visual-state>
@@ -6873,7 +6946,7 @@
                 <format attr='margin' value='4' />
               </zone-style>
             </zone>
-            <zone h='5556' id='470' type-v2='dashboard-object' w='3571' x='84571' y='47332'>
+            <zone h='5556' hidden-by-user='true' id='470' type-v2='dashboard-object' w='3571' x='84607' y='42664'>
               <button action='' button-click-action-metadata='image'>
                 <export-button-action>tabdoc:abstract-dashboard-button-export-wrapper dashboard-button-export-type=&quot;image&quot; dashboarddoc-id=&quot;{E4123718-08E4-4889-935B-8B86EF48E200}&quot;</export-button-action>
                 <button-visual-state>
@@ -6888,7 +6961,7 @@
                 <format attr='margin' value='4' />
               </zone-style>
             </zone>
-            <zone h='5556' id='472' type-v2='empty' w='11144' x='88142' y='47332'>
+            <zone h='5556' hidden-by-user='true' id='472' type-v2='empty' w='11107' x='88178' y='42664'>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -6897,7 +6970,7 @@
               </zone-style>
             </zone>
           </zone>
-          <zone fixed-size='12' h='2222' id='473' is-fixed='true' type-v2='empty' w='29357' x='69929' y='52888'>
+          <zone fixed-size='12' h='2222' hidden-by-user='true' id='473' is-fixed='true' type-v2='empty' w='29357' x='69929' y='48220'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -6905,7 +6978,7 @@
               <format attr='margin' value='4' />
             </zone-style>
           </zone>
-          <zone forceUpdate='true' h='3333' id='474' type-v2='text' w='29357' x='69929' y='55110'>
+          <zone forceUpdate='true' h='3333' hidden-by-user='true' id='474' type-v2='text' w='29357' x='69929' y='50442'>
             <formatted-text>
               <run fontalignment='1' fontcolor='#ffffff' fontname='Tableau Medium' fontsize='12'>- S O C I A L S - </run>
             </formatted-text>
@@ -6916,11 +6989,11 @@
               <format attr='margin' value='4' />
               <format attr='margin-right' value='10' />
               <format attr='margin-left' value='10' />
-              <format attr='background-color' value='#ffffca1b' />
+              <format attr='background-color' value='#ffffca3c' />
             </zone-style>
           </zone>
-          <zone fixed-size='50' h='5557' id='475' is-fixed='true' param='horz' type-v2='layout-flow' w='29357' x='69929' y='58443'>
-            <zone fixed-size='112' h='5557' id='477' is-fixed='true' type-v2='empty' w='8571' x='69929' y='58443'>
+          <zone fixed-size='50' h='5556' hidden-by-user='true' id='475' is-fixed='true' param='horz' type-v2='layout-flow' w='29357' x='69929' y='53775'>
+            <zone fixed-size='112' h='5556' hidden-by-user='true' id='477' is-fixed='true' type-v2='empty' w='8571' x='69929' y='53775'>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -6928,7 +7001,7 @@
                 <format attr='margin' value='4' />
               </zone-style>
             </zone>
-            <zone alt-text='Go to Linkedin' h='5557' id='478' is-scaled='1' param='Image/Icon - Socials(LinkedIn).png' type-v2='bitmap' w='4071' x='78500' y='58443'>
+            <zone alt-text='Go to Linkedin' h='5556' hidden-by-user='true' id='478' is-scaled='1' param='Image/Icon - Socials(LinkedIn).png' type-v2='bitmap' w='3571' x='78500' y='53775'>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -6936,7 +7009,7 @@
                 <format attr='margin' value='4' />
               </zone-style>
             </zone>
-            <zone alt-text='Go to Github' h='5557' id='479' is-scaled='1' param='Image/Icon - Socials(Github).png' type-v2='bitmap' w='4071' x='82571' y='58443'>
+            <zone alt-text='Go to Github' h='5556' hidden-by-user='true' id='479' is-scaled='1' param='Image/Icon - Socials(Github).png' type-v2='bitmap' w='3571' x='82071' y='53775'>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -6944,7 +7017,7 @@
                 <format attr='margin' value='4' />
               </zone-style>
             </zone>
-            <zone alt-text='Go to Tableau Public' h='5557' id='480' is-scaled='1' param='Image/Icon -Tableau.png' type-v2='bitmap' w='4071' x='86642' y='58443'>
+            <zone alt-text='Go to Tableau Public' h='5556' hidden-by-user='true' id='480' is-scaled='1' type-v2='bitmap' w='5073' x='85642' y='53775'>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -6952,7 +7025,7 @@
                 <format attr='margin' value='4' />
               </zone-style>
             </zone>
-            <zone fixed-size='112' h='5557' id='476' is-fixed='true' type-v2='empty' w='8571' x='90713' y='58443'>
+            <zone fixed-size='112' h='5556' hidden-by-user='true' id='476' is-fixed='true' type-v2='empty' w='8571' x='90715' y='53775'>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -6968,13 +7041,19 @@
             <format attr='background-color' value='#664728' />
           </zone-style>
         </zone>
+        <zone h='5667' id='483' type-v2='dashboard-object' w='857' x='97714' y='51556'>
+          <button action='' button-click-action-metadata='image'>
+            <export-button-action>tabdoc:abstract-dashboard-button-export-wrapper dashboard-button-export-type=&quot;image&quot; dashboarddoc-id=&quot;{E4123718-08E4-4889-935B-8B86EF48E200}&quot;</export-button-action>
+            <button-visual-state />
+          </button>
+        </zone>
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2200' minheight='2200' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='505' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98222' id='504' param='vert' type-v2='layout-flow' w='98858' x='571' y='889'>
+            <zone h='100000' id='489' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='488' param='vert' type-v2='layout-flow' w='98858' x='571' y='889'>
                 <zone alt-text='DailyGrind Logo' fixed-size='72' h='8889' id='389' is-fixed='true' is-scaled='1' param='Image/dailygrind_logo.png' type-v2='bitmap' w='7143' x='3709' y='1667'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -7042,7 +7121,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone forceUpdate='true' h='3333' id='408' type-v2='text' w='29357' x='69929' y='10444'>
+                <zone forceUpdate='true' h='3333' hidden-by-user='true' id='408' type-v2='text' w='29357' x='69929' y='10444'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#ffffff' fontname='Tableau Medium' fontsize='12'>F I L T E R S</run>
                   </formatted-text>
@@ -7064,8 +7143,8 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='36667' id='430' is-fixed='true' name='Hour of Day.chart' show-title='false' w='84785' x='13786' y='15000'>
-                  <layout-cache minheight='130' minwidth='137' type-h='scalable' type-w='scalable' />
+                <zone fixed-size='280' h='36667' id='430' is-fixed='true' name='Hour of Day.chart' w='85571' x='13000' y='15000'>
+                  <layout-cache minheight='172' minwidth='137' type-h='scalable' type-w='scalable' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -7074,17 +7153,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='6889' id='410' mode='compact' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='29357' x='69929' y='15999'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                    <format attr='background-color' value='#664728' />
-                  </zone-style>
-                </zone>
-                <zone h='6889' id='411' mode='compact' param='[Parameters].[Parameter 3]' type-v2='paramctrl' w='29357' x='69929' y='22888'>
+                <zone h='8555' hidden-by-user='true' id='410' mode='compact' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='29357' x='69929' y='15999'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -7094,7 +7163,17 @@
                     <format attr='background-color' value='#664728' />
                   </zone-style>
                 </zone>
-                <zone forceUpdate='true' h='2889' id='463' type-v2='text' w='29357' x='69929' y='31999'>
+                <zone h='7444' hidden-by-user='true' id='411' mode='compact' param='[Parameters].[Parameter 3]' type-v2='paramctrl' w='29357' x='69929' y='24554'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#664728' />
+                  </zone-style>
+                </zone>
+                <zone h='2889' hidden-by-user='true' id='463' type-v2='text' w='29357' x='69929' y='34220'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#ffffff' fontname='Tableau Medium' fontsize='10'>- P R O D U C T -</run>
                   </formatted-text>
@@ -7104,10 +7183,10 @@
                     <format attr='border-width' value='0' />
                     <format attr='margin' value='4' />
                     <format attr='padding' value='0' />
-                    <format attr='background-color' value='#ffffca1b' />
+                    <format attr='background-color' value='#ffffca3c' />
                   </zone-style>
                 </zone>
-                <zone forceUpdate='true' h='3333' id='465' type-v2='text' w='29357' x='69929' y='43999'>
+                <zone forceUpdate='true' h='3333' hidden-by-user='true' id='465' type-v2='text' w='29357' x='69929' y='39331'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#ffffff' fontname='Tableau Medium' fontsize='12'>- E X P O R T    A S - </run>
                   </formatted-text>
@@ -7120,7 +7199,7 @@
                     <format attr='background-color' value='#ffffca1b' />
                   </zone-style>
                 </zone>
-                <zone h='5556' id='469' type-v2='dashboard-object' w='3571' x='81000' y='47332'>
+                <zone h='5556' hidden-by-user='true' id='469' type-v2='dashboard-object' w='3571' x='81036' y='42664'>
                   <button action='' button-click-action-metadata='pdf'>
                     <export-button-action>tabdoc:abstract-dashboard-button-export-wrapper dashboard-button-export-type=&quot;pdf&quot; dashboarddoc-id=&quot;{E4123718-08E4-4889-935B-8B86EF48E200}&quot;</export-button-action>
                     <button-visual-state>
@@ -7136,13 +7215,39 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='5556' id='470' type-v2='dashboard-object' w='3571' x='84571' y='47332'>
+                <zone h='5556' hidden-by-user='true' id='470' type-v2='dashboard-object' w='3571' x='84607' y='42664'>
                   <button action='' button-click-action-metadata='image'>
                     <export-button-action>tabdoc:abstract-dashboard-button-export-wrapper dashboard-button-export-type=&quot;image&quot; dashboarddoc-id=&quot;{E4123718-08E4-4889-935B-8B86EF48E200}&quot;</export-button-action>
                     <button-visual-state>
                       <image-path>Image/Icon - Export As(image).png</image-path>
                       <tooltip-text>Download Dashboard As PNG</tooltip-text>
                     </button-visual-state>
+                  </button>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3333' hidden-by-user='true' id='474' type-v2='text' w='29357' x='69929' y='50442'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#ffffff' fontname='Tableau Medium' fontsize='12'>- S O C I A L S - </run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffca3c' />
+                  </zone-style>
+                </zone>
+                <zone h='5667' id='483' type-v2='dashboard-object' w='857' x='97714' y='51556'>
+                  <button action='' button-click-action-metadata='image'>
+                    <export-button-action>tabdoc:abstract-dashboard-button-export-wrapper dashboard-button-export-type=&quot;image&quot; dashboarddoc-id=&quot;{E4123718-08E4-4889-935B-8B86EF48E200}&quot;</export-button-action>
+                    <button-visual-state />
                   </button>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -7163,16 +7268,7 @@
                     <format attr='background-color' value='#ffffff' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='92' h='9667' id='429' name='Time of day/Weekday.chart' pane-specification-id='5' param='[federated.0wnfrk604a3eu617rswz10jre75k].[none:time_of_day:nk]' type-v2='color' w='7214' x='4786' y='15556'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone h='6889' id='503' mode='checkdropdown' name='Time of day.Chart' param='[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]' type-v2='filter' values='database' w='29357' x='69929' y='34888'>
+                <zone fixed-size='92' h='12222' id='429' name='Time of day/Weekday.chart' pane-specification-id='5' param='[federated.0wnfrk604a3eu617rswz10jre75k].[none:time_of_day:nk]' type-v2='color' w='6428' x='4786' y='15556'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -7192,20 +7288,7 @@
                     <format attr='background-color' value='#ffffff' />
                   </zone-style>
                 </zone>
-                <zone forceUpdate='true' h='3333' id='474' type-v2='text' w='29357' x='69929' y='55110'>
-                  <formatted-text>
-                    <run fontalignment='1' fontcolor='#ffffff' fontname='Tableau Medium' fontsize='12'>- S O C I A L S - </run>
-                  </formatted-text>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                    <format attr='background-color' value='#ffffca1b' />
-                  </zone-style>
-                </zone>
-                <zone alt-text='Go to Linkedin' fixed-size='42' h='5557' id='478' is-fixed='true' is-scaled='1' param='Image/Icon - Socials(LinkedIn).png' type-v2='bitmap' w='4071' x='78500' y='58443'>
+                <zone alt-text='Go to Linkedin' fixed-size='42' h='5556' hidden-by-user='true' id='478' is-fixed='true' is-scaled='1' param='Image/Icon - Socials(LinkedIn).png' type-v2='bitmap' w='3571' x='78500' y='53775'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -7214,7 +7297,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone alt-text='Go to Github' fixed-size='42' h='5557' id='479' is-fixed='true' is-scaled='1' param='Image/Icon - Socials(Github).png' type-v2='bitmap' w='4071' x='82571' y='58443'>
+                <zone alt-text='Go to Github' fixed-size='42' h='5556' hidden-by-user='true' id='479' is-fixed='true' is-scaled='1' param='Image/Icon - Socials(Github).png' type-v2='bitmap' w='3571' x='82071' y='53775'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -7223,7 +7306,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone alt-text='Go to Tableau Public' fixed-size='42' h='5557' id='480' is-fixed='true' is-scaled='1' param='Image/Icon -Tableau.png' type-v2='bitmap' w='4071' x='86642' y='58443'>
+                <zone alt-text='Go to Tableau Public' fixed-size='42' h='5556' hidden-by-user='true' id='480' is-fixed='true' is-scaled='1' type-v2='bitmap' w='5073' x='85642' y='53775'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -7261,6 +7344,98 @@
     </dashboard>
   </dashboards>
   <windows source-height='30'>
+    <window class='dashboard' name='Sales Dashboard' tab-color='#6e597f'>
+      <viewpoints>
+        <viewpoint name='KPI AOV.chart'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='KPI AOV.title'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='KPI Sale.title'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='KPI Sales.chart'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='KPI Transactions.title'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='KPI Transations.chart'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Payment Method.chart'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Time Granularity.chart'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Top N Coffee Type'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='467' />
+      <simple-id uuid='{500C7056-AF80-429D-A771-3DEACA955F57}' />
+    </window>
+    <window class='dashboard' name='Time Granularity Dashboard' tab-color='#6e597f'>
+      <viewpoints>
+        <viewpoint name='Hour of Day.chart'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Time of day.Chart'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Time of day/Weekday.chart'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='483' />
+      <simple-id uuid='{8EC42FC8-7C34-4931-BCE5-D82E31C8FFDA}' />
+    </window>
+    <window class='dashboard' name='Product Comparison Dashboard' tab-color='#6e597f'>
+      <viewpoints>
+        <viewpoint name='monthly coffee type distribution'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='time of day coffee type distribution (2)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='weekly coffee type distribution '>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='yearly coffee type distribution (3)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='443' />
+      <simple-id uuid='{318660E9-1943-4CC8-B344-41B118B328B5}' />
+    </window>
+    <window class='worksheet' name='Top N Coffee Type' tab-color='#a65200'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='radiolist' param='[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Calculation_358599138959036417:nk:4]' show-all='false' show-exclude='false' show-filter-state='false' show-morefewerbutton='false' type='filter' />
+            <card mode='slider' param='[Parameters].[Parameter 4]' type='parameter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7DF4A8D2-F7C1-4115-BDE7-24F4A3B011EC}' />
+    </window>
     <window class='worksheet' name='Testing Yearly KPIs' tab-color='#17927d'>
       <cards>
         <edge name='left'>
@@ -7410,30 +7585,6 @@
         </edge>
       </cards>
       <simple-id uuid='{ECBA8A39-70DF-41CB-8D90-4B28C8F79C57}' />
-    </window>
-    <window class='worksheet' name='yearly kpi overview' tab-color='#17927d'>
-      <cards>
-        <edge name='left'>
-          <strip size='160'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-            <card type='measures' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-          <strip size='31'>
-            <card type='title' />
-          </strip>
-        </edge>
-      </cards>
-      <simple-id uuid='{FB04F78A-BA63-4D65-B65E-BC0D5E631E1A}' />
     </window>
     <window class='worksheet' name='KPI Sales.chart' tab-color='#4f779a'>
       <cards>
@@ -7660,6 +7811,29 @@
       </cards>
       <simple-id uuid='{3822B84D-658F-45F2-B038-6A87C9962269}' />
     </window>
+    <window class='worksheet' name='Sheet 15'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{53C31CB4-ACD2-4180-8B37-C97F1BF975F4}' />
+    </window>
     <window class='worksheet' name='weekly_done' tab-color='#a65200'>
       <cards>
         <edge name='left'>
@@ -7687,6 +7861,63 @@
         </edge>
       </cards>
       <simple-id uuid='{A8B60EF3-F564-4996-9CBA-D77538A9FF6B}' />
+    </window>
+    <window class='worksheet' name='weekly_done (2)' tab-color='#a65200'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='15' param='[federated.0wnfrk604a3eu617rswz10jre75k].[usr:MoM Sales Change  (copy)_675821441942831105:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{92892520-BB0A-487C-B8AC-1463523BF4D7}' />
+    </window>
+    <window class='worksheet' name='monthly sales forecast' tab-color='#a65200'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='5' param='[federated.0wnfrk604a3eu617rswz10jre75k].[none:Forecast Indicator:nk]' type='color' />
+            <card param='[federated.0wnfrk604a3eu617rswz10jre75k].[none:Forecast Indicator:nk]' type='highlighter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{82B04EA6-3519-4EB0-ACC6-22EA24B7D5B0}' />
     </window>
     <window class='worksheet' name='time of day coffee type distribution (2)' tab-color='#a65200'>
       <cards>
@@ -7866,33 +8097,6 @@
       </cards>
       <simple-id uuid='{9CD1762F-7F7A-461B-B17F-1B40545A056F}' />
     </window>
-    <window class='worksheet' name='Top N Coffee Type' tab-color='#a65200'>
-      <cards>
-        <edge name='left'>
-          <strip size='160'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-        </edge>
-        <edge name='right'>
-          <strip size='160'>
-            <card param='[federated.0wnfrk604a3eu617rswz10jre75k].[none:coffee_name:nk]' type='filter' />
-            <card mode='radiolist' param='[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Calculation_358599138959036417:nk:4]' show-all='false' show-exclude='false' show-filter-state='false' show-morefewerbutton='false' type='filter' />
-            <card mode='slider' param='[Parameters].[Parameter 4]' type='parameter' />
-          </strip>
-        </edge>
-      </cards>
-      <simple-id uuid='{7DF4A8D2-F7C1-4115-BDE7-24F4A3B011EC}' />
-    </window>
     <window class='worksheet' name='Sales Revenue' tab-color='#f66273'>
       <cards>
         <edge name='left'>
@@ -7921,71 +8125,61 @@
       </cards>
       <simple-id uuid='{A95BE54E-4678-4248-A3FA-2D4ACC20B8EC}' />
     </window>
-    <window class='dashboard' maximized='true' name='Sales Dashboard' tab-color='#6e597f'>
+    <window class='dashboard' maximized='true' name='Executive Summary' tab-color='#f66273'>
       <viewpoints>
-        <viewpoint name='KPI AOV.chart'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='KPI AOV.title'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='KPI Sale.title'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='KPI Sales.chart'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='KPI Transactions.title'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='KPI Transations.chart'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='Payment Method.chart'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='Time Granularity.chart'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='Top N Coffee Type'>
+        <viewpoint name='Sales Revenue'>
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='492' />
-      <simple-id uuid='{500C7056-AF80-429D-A771-3DEACA955F57}' />
+      <active id='42' />
+      <simple-id uuid='{77CE0A09-1488-460B-BB8D-EE2D9CD1AD92}' />
     </window>
-    <window class='dashboard' name='Time Granularity Dashboard' tab-color='#6e597f'>
-      <viewpoints>
-        <viewpoint name='Hour of Day.chart'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='Time of day.Chart'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='Time of day/Weekday.chart'>
-          <zoom type='entire-view' />
-        </viewpoint>
-      </viewpoints>
-      <active id='503' />
-      <simple-id uuid='{8EC42FC8-7C34-4931-BCE5-D82E31C8FFDA}' />
+    <window class='worksheet' name='yearly kpi overview' tab-color='#f66273'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FB04F78A-BA63-4D65-B65E-BC0D5E631E1A}' />
     </window>
-    <window class='dashboard' name='Product Comparison Dashboard' tab-color='#6e597f'>
-      <viewpoints>
-        <viewpoint name='monthly coffee type distribution'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='time of day coffee type distribution (2)'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='weekly coffee type distribution '>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='yearly coffee type distribution (3)'>
-          <zoom type='entire-view' />
-        </viewpoint>
-      </viewpoints>
-      <active id='510' />
-      <simple-id uuid='{318660E9-1943-4CC8-B344-41B118B328B5}' />
+    <window class='worksheet' name='Sheet 28'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C32AE1BB-5784-4278-973B-F64918629B91}' />
     </window>
   </windows>
 </workbook>

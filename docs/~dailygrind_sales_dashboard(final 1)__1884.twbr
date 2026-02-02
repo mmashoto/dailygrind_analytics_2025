@@ -800,6 +800,68 @@
               <bucket>&quot;below&quot;</bucket>
             </map>
           </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#444444'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[sum:Calculation_832603002905485337:qk]&quot;</bucket>
+            </map>
+            <map to='#444444'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Calculation_832603002927087655:qk]&quot;</bucket>
+            </map>
+            <map to='#444444'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:CM Sales (copy)_832603002922270755:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[cum:sum:sales:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[diff:sum:sales:qk:1]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[diff:sum:sales:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[pcto:sum:sales:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[sum:Calculation_832603002593853453:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[sum:sales:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:CY Transations (copy)_235031627473256455:qk]&quot;</bucket>
+            </map>
+            <map to='#adadad'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[sum:CM Sales (copy)_832603002913419292:qk]&quot;</bucket>
+            </map>
+            <map to='#adadad'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:CM AOV (copy)_832603002924900388:qk]&quot;</bucket>
+            </map>
+            <map to='#adadad'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:CM Transations (copy)_832603002927546408:qk]&quot;</bucket>
+            </map>
+            <map to='#cfa075'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Min/Max Sales (copy)_235031627479339017:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[sum:sales:qk]:1&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Min/Max Sales (copy)_235031627470831621:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Calculation1:qk:3]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Calculation1:qk:5]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Calculation1:qk]&quot;</bucket>
+            </map>
+          </encoding>
           <encoding attr='color' field='[none:cash_type:nk]' type='palette'>
             <map to='#341102'>
               <bucket>&quot;card&quot;</bucket>
@@ -1022,68 +1084,6 @@
             </map>
             <map to='#f5f5dc'>
               <bucket>&quot;Latte&quot;</bucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[:Measure Names]' type='palette'>
-            <map to='#444444'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[sum:Calculation_832603002905485337:qk]&quot;</bucket>
-            </map>
-            <map to='#444444'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Calculation_832603002927087655:qk]&quot;</bucket>
-            </map>
-            <map to='#444444'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:CM Sales (copy)_832603002922270755:qk]&quot;</bucket>
-            </map>
-            <map to='#4e79a7'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k]&quot;</bucket>
-            </map>
-            <map to='#4e79a7'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[cum:sum:sales:qk]&quot;</bucket>
-            </map>
-            <map to='#4e79a7'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[diff:sum:sales:qk:1]&quot;</bucket>
-            </map>
-            <map to='#4e79a7'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[diff:sum:sales:qk]&quot;</bucket>
-            </map>
-            <map to='#4e79a7'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[pcto:sum:sales:qk]&quot;</bucket>
-            </map>
-            <map to='#4e79a7'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[sum:Calculation_832603002593853453:qk]&quot;</bucket>
-            </map>
-            <map to='#4e79a7'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[sum:sales:qk]&quot;</bucket>
-            </map>
-            <map to='#76b7b2'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:CY Transations (copy)_235031627473256455:qk]&quot;</bucket>
-            </map>
-            <map to='#adadad'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[sum:CM Sales (copy)_832603002913419292:qk]&quot;</bucket>
-            </map>
-            <map to='#adadad'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:CM AOV (copy)_832603002924900388:qk]&quot;</bucket>
-            </map>
-            <map to='#adadad'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:CM Transations (copy)_832603002927546408:qk]&quot;</bucket>
-            </map>
-            <map to='#cfa075'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Min/Max Sales (copy)_235031627479339017:qk]&quot;</bucket>
-            </map>
-            <map to='#e15759'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[sum:sales:qk]:1&quot;</bucket>
-            </map>
-            <map to='#e15759'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Min/Max Sales (copy)_235031627470831621:qk]&quot;</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Calculation1:qk:3]&quot;</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Calculation1:qk:5]&quot;</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>&quot;[federated.0wnfrk604a3eu617rswz10jre75k].[usr:Calculation1:qk]&quot;</bucket>
             </map>
           </encoding>
         </style-rule>
@@ -5686,7 +5686,7 @@
               </zone>
               <zone h='31995' id='355' layout-strategy-id='distribute-evenly' param='horz' type-v2='layout-flow' w='95577' x='3709' y='64001'>
                 <zone fixed-size='660' h='32000' id='361' is-fixed='true' name='Top N Coffee Type' show-title='false' w='47786' x='3714' y='64000'>
-                  <layout-cache minwidth='240' type-h='cell' type-w='scalable' />
+                  <layout-cache cell-count-h='5' minwidth='240' type-h='cell' type-w='scalable' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -5925,7 +5925,7 @@
                 <format attr='margin' value='4' />
               </zone-style>
             </zone>
-            <zone alt-text='Go to Linkedin' h='5557' id='491' is-scaled='1' param='Image/Icon - Socials(LinkedIn).png' type-v2='bitmap' w='4072' x='78500' y='58443'>
+            <zone alt-text='Go to Linkedin' h='5557' id='491' is-scaled='1' param='Image/Icon - Socials(LinkedIn).png' type-v2='bitmap' w='4071' x='78500' y='58443'>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -5933,7 +5933,7 @@
                 <format attr='margin' value='4' />
               </zone-style>
             </zone>
-            <zone alt-text='To Go Github' fixed-size='49' forceUpdate='true' h='5557' id='492' is-fixed='true' is-scaled='1' param='Image/Icon - Socials(Github).png' type-v2='bitmap' url='https://github.com/mmashoto/mmashoto' w='4071' x='82572' y='58443'>
+            <zone alt-text='To Go Github' h='5557' id='492' is-scaled='1' param='Image/Icon - Socials(Github).png' type-v2='bitmap' url='https://github.com/mmashoto/dailygrind_analytics_2025' w='4071' x='82571' y='58443'>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -5941,7 +5941,7 @@
                 <format attr='margin' value='4' />
               </zone-style>
             </zone>
-            <zone alt-text='Go To Tableau' h='5557' id='490' is-scaled='1' param='Image/Icon -Tableau.png' type-v2='bitmap' w='4072' x='86643' y='58443'>
+            <zone alt-text='Go To Tableau' h='5557' id='490' is-scaled='1' param='Image/Icon -Tableau.png' type-v2='bitmap' w='4071' x='86642' y='58443'>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -5949,7 +5949,7 @@
                 <format attr='margin' value='4' />
               </zone-style>
             </zone>
-            <zone fixed-size='112' h='5557' id='488' is-fixed='true' type-v2='empty' w='8571' x='90715' y='58443'>
+            <zone fixed-size='112' h='5557' id='488' is-fixed='true' type-v2='empty' w='8571' x='90713' y='58443'>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -6352,7 +6352,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone alt-text='To Go Github' fixed-size='42' forceUpdate='true' h='5557' id='492' is-fixed='true' is-scaled='1' param='Image/Icon - Socials(Github).png' type-v2='bitmap' w='4071' x='82571' y='58443'>
+                <zone alt-text='To Go Github' fixed-size='42' h='5557' id='492' is-fixed='true' is-scaled='1' param='Image/Icon - Socials(Github).png' type-v2='bitmap' w='4071' x='82571' y='58443'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -6643,7 +6643,7 @@
                 <zone fixed-size='111' friendly-name='Vertical Cont.(KPI Sales)' h='38889' id='60' is-fixed='true' layout-strategy-id='distribute-evenly' param='vert' type-v2='layout-flow' w='9358' x='3709' y='13889'>
                   <zone friendly-name='Horizontal Cont.(blank)' h='36667' id='66' param='vert' type-v2='layout-flow' w='7928' x='4429' y='15000'>
                     <zone fixed-size='110' friendly-name='Horizontal Cont.( KPI Sales&amp; Icon)' h='12222' id='93' is-fixed='true' param='horz' type-v2='layout-flow' w='7214' x='4786' y='15556'>
-                      <zone fixed-size='92' h='9667' id='429' is-fixed='true' name='Time of day/Weekday.chart' pane-specification-id='5' param='[federated.0wnfrk604a3eu617rswz10jre75k].[none:time_of_day:nk]' type-v2='color' w='7214' x='4786' y='15556'>
+                      <zone fixed-size='92' h='2444' id='429' is-fixed='true' name='Time of day/Weekday.chart' pane-specification-id='5' param='[federated.0wnfrk604a3eu617rswz10jre75k].[none:time_of_day:nk]' type-v2='color' w='7214' x='4786' y='15556'>
                         <zone-style>
                           <format attr='border-color' value='#000000' />
                           <format attr='border-style' value='none' />
@@ -7921,7 +7921,7 @@
       </cards>
       <simple-id uuid='{A95BE54E-4678-4248-A3FA-2D4ACC20B8EC}' />
     </window>
-    <window class='dashboard' maximized='true' name='Sales Dashboard' tab-color='#6e597f'>
+    <window class='dashboard' name='Sales Dashboard' tab-color='#6e597f'>
       <viewpoints>
         <viewpoint name='KPI AOV.chart'>
           <zoom type='entire-view' />
@@ -7951,10 +7951,10 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='492' />
+      <active id='17' />
       <simple-id uuid='{500C7056-AF80-429D-A771-3DEACA955F57}' />
     </window>
-    <window class='dashboard' name='Time Granularity Dashboard' tab-color='#6e597f'>
+    <window class='dashboard' maximized='true' name='Time Granularity Dashboard' tab-color='#6e597f'>
       <viewpoints>
         <viewpoint name='Hour of Day.chart'>
           <zoom type='entire-view' />
@@ -7966,7 +7966,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='503' />
+      <active id='-1' />
       <simple-id uuid='{8EC42FC8-7C34-4931-BCE5-D82E31C8FFDA}' />
     </window>
     <window class='dashboard' name='Product Comparison Dashboard' tab-color='#6e597f'>
