@@ -436,11 +436,6 @@
 ## Author
 
 <div align="center">
-  
-**Makobe Mashoto**
-</div>
-
-<div align="center">
  [![Gmail](https://img.shields.io/badge/Gmail-CFA075.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mashoto.makobe99@gmail.com)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-CFA075.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mmashoto)
   [![GitHub](https://img.shields.io/badge/Github-CFA075.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mmashoto/mmashoto)
