@@ -433,11 +433,12 @@
 - See the notebook for data cleaning, visualization, and analysis in the **[Python Notebook](docs/dailygrind_eda_and_visualisation.ipynb)**.
 - For more of my projects and data journey, visit my **[github portfolio and reach out](https://github.com/makobemashoto)**!
 
-## Author - Mashoto Makobe
+## Author
 
 <div align="center">
   
-  [![Gmail](https://img.shields.io/badge/Gmail-CFA075.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mashoto.makobe99@gmail.com)
+**Makobe Mashoto**
+ [![Gmail](https://img.shields.io/badge/Gmail-CFA075.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mashoto.makobe99@gmail.com)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-CFA075.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mmashoto)
   [![GitHub](https://img.shields.io/badge/Github-CFA075.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mmashoto/mmashoto)
  <!-- [![Medium](https://img.shields.io/badge/Medium-CFA075.svg?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@mmashoto)-->
