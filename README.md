@@ -431,7 +431,7 @@
 
 - See my SQL queries for data exploration and advanced analysis in the **[Scripts Folder](scripts/)**.
 - See the notebook for data cleaning, visualization, and analysis in the **[Python Notebook](docs/dailygrind_eda_and_visualisation.ipynb)**.
-- For more of my projects and data journey, visit my **[github portfolio and reach out](https://github.com/makobemashoto)**!
+- For more of my projects and data journey, visit my **[github portfolio and reach out](https://github.com/mmashoto)**!
 
 ## Author
 
