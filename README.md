@@ -253,7 +253,7 @@
 <table align="center">
   <tr>
       <div align="center">
-        <h3>Product Sales Surged in 2020 but were not Sustained at High Levels</h3>
+        <h3>Midday Trading Hours Drive Sales, While Evening Demand Softens</h3>
         <img width="1000" alt="Product Comparison Dashboard" src="docs/dashboard_product_comparison.png" />
       </div>
     <tr>
