@@ -283,10 +283,10 @@
       <td width="333" valign="top">
       <h3>Transaction Volume Over Time</h3>
       <ul>
-        <li> The transaction Volume over time were volatile  and matched the sales revenue indicating that it was the main contributor to the sales revenue. THE TRANSACTION WERE THE HIGHEST IN TH THIESE MONTHS DUE TO SEASONALIT AND OTHER FACTORS S</li>
-        <li>Biggest Q4 Performer: The 27-inch 4K Gaming Monitor and Apple AirPods saw the biggest spikes.</li>
-        <li>Sales tend to dip in January and February after the holiday season in Q1.</li>
-        <li>MacBook Air, ThinkPad, and the 27-inch 4K Gaming Monitor maintain consistent demand, as sales through Q2 and Q3 remain relatively stable but lower than in Q4.</li>
+        <li> Transaction volumes were highly volatile over the period and closely tracked sales revenue, indicating that order volume was the primary driver of overall revenue performance, rather than price effects alone.</li>
+        <li>Top-performing products by transaction volume were Americano with Milk (825), Latte (782), and Americano (578), making them the core contributors to both volume and revenue across daily, weekly, and monthly views.</li>
+        <li>Underperforming products were Espresso (134) and Cocoa (243), which contributed marginally to total transactions and revenue, suggesting limited demand relative to the rest of the menu.</li>
+        <li>The consistency of top products across time granularities (daily, weekly, monthly) indicates a stable preference structure, while overall volatility reflects fluctuations in customer traffic rather than shifts in product mix.</li>
       </ul> 
       </td>
 </tr>
