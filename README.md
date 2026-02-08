@@ -446,8 +446,9 @@
 </div>
 
 
+
 <!-- Back to Top Badge -->
 <div align="right">
 
-  [![Back to Top](https://img.shields.io/badge/%E2%8679-Back%20to%20Top-341102?style=for-the-badge&logoColor=white)](#top)
+  [![Back to Top](https://img.shields.io/badge/Back%20to%20Top-341102?style=for-the-badge&logoColor=1D3557)](#top)
 </div>
